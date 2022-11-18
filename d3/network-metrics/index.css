@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color:honeydew;
+  }
+  
+  body {
+    display: grid;
+    justify-items: center;
+  }
+  
+  #layout {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  #controls {
+    padding: 20px;
+  }
+  
+  label {
+    margin-left: 3px;
+    margin-right: 10px;
+  }
+  
+  svg {
+    margin-right: 20px;
+    /* border: 1px solid #ddd; */
+    box-shadow: 0 4px 16px 0 rgb(0 0 0 / 20%), 0 1px 20px 0 rgb(0 0 0 / 19%);
+  }
+  
+  .nodes circle {
+    stroke: white;
+    stroke-width: 2px;
+    fill: lightsteelblue;
+  }
+  
+  .nodes circle.highlight {
+    stroke: steelblue;
+    stroke-width: 3px;
+  }
+  
+  .links line {
+    stroke: #bbb;
+    stroke-width: 1.5;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .links line.highlight {
+    stroke: steelblue;
+    stroke-width: 2;
+  }
+  
+  .nodes circle.highlight,
+  .links line.highlight {
+    transition: stroke 300ms ease-in-out;
+  }
+  
+  table {
+    border-collapse:collapse;
+  }
+  
+  tr.highlight {
+    color: white;
+    background-color: steelblue;
+    transition: all 300ms ease-in-out;
+  }
+  
+  th {
+    text-align: left;
+  }
+  
+  th,
+  td {
+    padding: 6px;
+    border: 1px solid lightblue
+
+  }
+  .d3-tip {
+    /* transition: all 300ms ease-in-out; */
+  }

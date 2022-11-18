@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      :root {
+        --tip-bg-color: #fff;
+      }
+      body {
+        background: #fff;
+        font-family: "Open-Sans", sans-serif;
+      }
+
+      #container {
+        margin: 0 auto;
+        position: relative;
+        width: 800px;
+        overflow: visible;
+      }
+
+      .svg {
+        width: 800px;
+        height: 400px;
+        overflow: visible;
+        position: absolute;
+      }
+
+      .grid .tick {
+        stroke: lightgrey;
+        opacity: 0.3;
+        shape-rendering: crispEdges;
+      }
+      .grid path {
+        stroke-width: 0;
+      }
+
+      #tag {
+        color: white;
+        background: var(--tip-bg-color);
+        width: 150px;
+        position: absolute;
+        display: none;
+        padding: 3px 6px;
+        margin-left: -80px;
+        font-size: 11px;
+      }
+
+      #tag:before {
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        left: 50%;
+        margin-left: -5px;
+        position: absolute;
+        width: 0;
+        border-width: 10px;
+        border-bottom-color: var(--tip-bg-color);
+        top: -20px;
+      }
+      .d3-tip {
+        padding: 6px !important;
+        color: white !important; 
+        font-size: 11px !important;
+        background-color: var(--tip-bg-color) !important;
+        translate: 0 -10px;
+      }
+      .d3-tip:after {
+        color: var(--tip-bg-color) !important;
+        margin-top: -2px !important;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://unpkg.com/d3-v6-tip@1.0.6/build/d3-v6-tip.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/bumbeishvili/d3-tip-for-v6@4/d3-tip.min.css"
+    />
+    <script src="index.js" defer type="module"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div class="svg"></div>
+      <div id="tag"></div>
+    </div>
+  </body>
+</html>
