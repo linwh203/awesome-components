@@ -8,7 +8,6 @@ export const taskArray = [
     endTime: "2013-2-1",
     details: "This actually didn't take any conceptualization",
   },
-
   {
     task: "sketch",
     type: "design",
@@ -16,14 +15,12 @@ export const taskArray = [
     endTime: "2013-2-6",
     details: "No sketching either, really",
   },
-
   {
     task: "detail interactions",
     type: "design",
     startTime: "2013-2-6",
     endTime: "2013-2-9",
   },
-
   {
     task: "HTML",
     type: "coding",
@@ -31,7 +28,6 @@ export const taskArray = [
     endTime: "2013-2-6",
     details: "all three lines of it",
   },
-
   {
     task: "Javascript",
     type: "coding",
@@ -44,7 +40,6 @@ export const taskArray = [
     startTime: "2013-2-6",
     endTime: "2013-2-9",
   },
-
   {
     task: "fix phase 1st",
     type: "debug",

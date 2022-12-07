@@ -8,6 +8,7 @@ const length = document.getElementById('length')
 const repeat = document.getElementById('repeat')
 const sequence = document.getElementById('sequence')
 
+// reg test page: https://regex101.com/r/9rr1py/1
 const lowerPattern = /(?=.*[a-z])/
 const upperPattern = /(?=.*[A-Z])/
 const numberPattern = /(?=.*[0-9])/

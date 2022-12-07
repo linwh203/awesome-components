@@ -11,7 +11,8 @@ html, body {
   }
   
   #layout {
-    display: grid;
+    /* display: grid; */
+    display: flex;
     gap: 1rem;
   }
   
@@ -42,20 +43,23 @@ html, body {
   }
   
   .links line {
-    stroke: #bbb;
+    /* stroke: #bbb; */
     stroke-width: 1.5;
     transition: all 300ms ease-in-out;
   }
   
   .links line.highlight {
-    stroke: steelblue;
-    stroke-width: 2;
+    /* stroke: steelblue; */
+    stroke-width: 4;
   }
   
-  .nodes circle.highlight,
-  .links line.highlight {
+  .nodes circle.highlight {
     transition: stroke 300ms ease-in-out;
   }
+  .links line.highlight {
+    transition: all 300ms ease-in-out;
+  }
+
   
   table {
     border-collapse:collapse;

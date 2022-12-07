@@ -100,80 +100,98 @@ export const KKG =
           "closeness": 0.3103448275862069,
           "eigenvector": 0.011163556091491361
         }
-      }
+      },
     ],
     "links": [
       {
         "source": "0",
-        "target": "1"
+        "target": "1",
+        "status": "safe",
       },
       {
         "source": "0",
-        "target": "2"
+        "target": "2",
+        "status": "safe",
       },
       {
         "source": "0",
-        "target": "3"
+        "target": "3",
+        "status": "unknown",
       },
       {
         "source": "0",
-        "target": "5"
+        "target": "5",
+        "status": "broken",
       },
       {
         "source": "1",
-        "target": "3"
+        "target": "3",
+        "status": "broken",
       },
       {
         "source": "1",
-        "target": "4"
+        "target": "4",
+        "status": "safe",
       },
       {
         "source": "1",
-        "target": "6"
+        "target": "6",
+        "status": "unknown",
       },
       {
         "source": "2",
-        "target": "3"
+        "target": "3",
+        "status": "safe",
       },
       {
         "source": "2",
-        "target": "5"
+        "target": "5",
+        "status": "safe",
       },
       {
         "source": "3",
-        "target": "4"
+        "target": "4",
+        "status": "safe",
       },
       {
         "source": "3",
-        "target": "5"
+        "target": "5",
+        "status": "safe",
       },
       {
         "source": "3",
-        "target": "6"
+        "target": "6",
+        "status": "safe",
       },
       {
         "source": "4",
-        "target": "6"
+        "target": "6",
+        "status": "unknown",
       },
       {
         "source": "5",
-        "target": "6"
+        "target": "6",
+        "status": "unknown",
       },
       {
         "source": "5",
-        "target": "7"
+        "target": "7",
+        "status": "linked",
       },
       {
         "source": "6",
-        "target": "7"
+        "target": "7",
+        "status": "safe",
       },
       {
         "source": "7",
-        "target": "8"
+        "target": "8",
+        "status": "unknown",
       },
       {
         "source": "8",
-        "target": "9"
+        "target": "9",
+        "status": "linked",
       }
     ]
   }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflowing Text</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            color-scheme: dark light;
+        }
+        body {
+            margin: 3rem;
+            font-size: 4rem;
+            font-weight: 500;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .overflowing-text {
+            border: 5px solid;
+            padding: 0.125rem 0.5rem;
+        }
+        /* option 1 scroll with custom scroll bar */
+        .overflowing-text-scroll {
+            width: 260px;
+            overflow-x: scroll;
+        }
+        /* Firefox */
+        .overflowing-text-scroll {
+            scrollbar-width: auto;
+            scrollbar-color: #fff #000;
+        }
+        /* Chrome, Edge, Safari */
+        .overflowing-text-scroll::-webkit-scrollbar {
+            height: 24px;
+        }
+        .overflowing-text-scroll::-webkit-scrollbar-track {
+            background: #000;
+        }
+        .overflowing-text-scroll::-webkit-scrollbar-thumb {
+            background-color: #fff;
+            border-radius: 100px;
+            border: 5px solid #000;
+        }
+        /* option 2 break word */
+        .overflowing-text-break {
+            width: 260px;
+            overflow-wrap: break-word;
+        }
+        /* option 3 & 4 change width with xxx-content */
+        .overflowing-text-width {
+            width: min-content;
+        }
+        .overflowing-text-width2 {
+            width: fit-content;
+        }
+        /* option 5 using container query, over 70% browser supported */
+         /* key point is dom structure using div > p */
+        .overflowing-text-container-query {
+            aspect-ratio: 1 / 1;
+           /* set parent container */
+            container-type: initial-size;
+        }
+        /* using clamp to prevent font too small or too big */
+        .overflowing-text-container-query > p {
+            font-size: clamp(2rem, 19cqi, 4rem);
+        }
+    </style>
+</head>
+<body>
+    <div class="overflowing-text overflowing-text-scroll">
+       <p>Option1: OverflowScroll</p>
+    </div>
+    <div class="overflowing-text overflowing-text-break">
+       <p> Option2: WordBreak</p>
+    </div>
+    <div class="overflowing-text overflowing-text-width">
+       <p> Option3: MinContent</p>
+    </div>
+    <div class="overflowing-text overflowing-text-width2">
+       <p> Option4: FitContent</p>
+    </div>
+    <div class="overflowing-text overflowing-text-container-query">
+       <p> Option5: ContainerQuery+Clamp</p>
+    </div>
+</body>
+</html>

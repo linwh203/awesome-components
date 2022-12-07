@@ -94,3 +94,5 @@ connectMainNodes(socialImpactCommons, cast);
 connectMainNodes(ambitioUS, cast);
 connectMainNodes(ambitioUS, socialImpactCommons);
 connectMainNodes(ambitioUS, artsWeb);
+
+console.log(nodes,links)

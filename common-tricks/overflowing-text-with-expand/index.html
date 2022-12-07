@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflowing Text</title>
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            color-scheme: dark light;
+        }
+        body {
+            --card-color: lightskyblue;
+            --border-color: #fff;
+            --card-color-darker: rgb(102, 159, 194);
+            overflow: hidden;
+            padding: 3rem;
+        }
+        .card-group {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+        .card {
+            background: var(--card-color);
+            padding: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: .25em;
+            display: grid;
+        }
+        h2 {
+            margin-bottom: 1rem;
+        }
+        .cutoff-text-1 {
+            --max-lines: 3;
+            display: -webkit-box;
+            overflow: hidden;
+            -webkit-box-orient:vertical;
+            -webkit-line-clamp: var(--max-lines);
+        }
+        .cutoff-text-2 {
+            --max-lines: 3;
+            --line-height: 1.4;
+            --font-size: 1em;
+            max-height: calc(var(--font-size) * var(--line-height) * var(--max-lines));
+            line-height: var(--line-height);
+            overflow: hidden;
+            position: relative;
+        }
+        .cutoff-text-2:has(+ .expand-btn:not(:checked))::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: calc(var(--font-size) * var(--line-height));
+            pointer-events: none;
+            background: linear-gradient(to bottom, transparent, var(--card-color));
+        }
+        .expand-btn {
+            appearance: none;
+            margin-left: auto;
+            border: 1px solid var(--border-color);
+            padding: 0.5em;
+            border-radius: .25em;
+            cursor: pointer;
+            margin-top: 1rem;
+            transition: .3s;
+        }
+        .expand-btn:hover {
+            background-color: var(--card-color-darker);
+        }
+        .expand-btn::before {
+            content: 'Expand';
+        }
+        .expand-btn:checked:before {
+            content: 'Collapse';
+        }
+        .cutoff-text-2:has(+ .expand-btn:checked) {
+            max-height: none;
+        }
+    </style>
+</head>
+<body>
+    <section class="card-group">
+        <article class="card">
+            <h2>Article 1</h2>
+            <p class="cutoff-text-1">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, praesentium a. Omnis illum nemo veritatis deleniti incidunt numquam, quam, dolore quas hic dolor error eveniet quaerat qui, repellat ipsum velit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, minus sapiente? Inventore exercitationem sunt delectus aliquam optio ad saepe iste. Pariatur ipsa, adipisci ratione possimus dolore impedit ipsam voluptas cumque!
+            </p>
+        </article>
+        <article class="card">
+            <h2>Article 2</h2>
+            <p class="cutoff-text-1">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, praesentium a. Omnis illum nemo veritatis deleniti incidunt numquam, quam, dolore quas hic dolor error eveniet quaerat qui, repellat ipsum velit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eos illo saepe delectus perferendis in, at, cum qui animi quis sit? Blanditiis nisi cupiditate sit!
+            </p>
+        </article>
+        <article class="card">
+            <h2>Article 3</h2>
+            <p class="cutoff-text-1">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, praesentium a. Omnis illum nemo veritatis deleniti incidunt numquam, quam, dolore quas hic dolor error eveniet quaerat qui, repellat ipsum velit.
+            </p>
+        </article>
+    </section>
+    <section class="card-group">
+        <article class="card">
+            <h2>Article 1</h2>
+            <p class="cutoff-text-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, praesentium a. Omnis illum nemo veritatis deleniti incidunt numquam, quam, dolore quas hic dolor error eveniet quaerat qui, repellat ipsum velit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, minus sapiente? Inventore exercitationem sunt delectus aliquam optio ad saepe iste. Pariatur ipsa, adipisci ratione possimus dolore impedit ipsam voluptas cumque!
+            </p>
+            <input type="checkbox" class="expand-btn">
+        </article>
+        <article class="card">
+            <h2>Article 2</h2>
+            <p class="cutoff-text-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, praesentium a. Omnis illum nemo veritatis deleniti incidunt numquam, quam, dolore quas hic dolor error eveniet quaerat qui, repellat ipsum velit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eos illo saepe delectus perferendis in, at, cum qui animi quis sit? Blanditiis nisi cupiditate sit!
+            </p>
+            <input type="checkbox" class="expand-btn">
+        </article>
+        <article class="card">
+            <h2>Article 3</h2>
+            <p class="cutoff-text-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, praesentium a. Omnis illum nemo veritatis deleniti incidunt numquam, quam, dolore quas hic dolor error eveniet quaerat qui, repellat ipsum velit.
+            </p>
+            <input type="checkbox" class="expand-btn">
+        </article>
+    </section>
+</body>
+</html>
