@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-body: #edf1f4;
+    --clr-bg: #2e2e2e;
+    --clr-text: #fff;
+    --clr-gray: #777;
+    --indicator-size: 70px;
+}
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--clr-body);
+}
+section {
+
+}
+

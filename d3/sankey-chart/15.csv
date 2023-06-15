@@ -1,0 +1,155 @@
+source,target,value,ip
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,70174-bheuu_ptj-acc1
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to Not NSR-Ready,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"bpm-default: <*> inst-id 0, Connection <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default, process instance 1: <*> inst-id 0, Connection Establised",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default: S inst-id 0, Initial Config Done",1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to NSR-Ready,1,kpguer02-asr9k
+<*> 0: emd: A register read operation has failed for device: sys bus i2c devices <*> register: sys bus i2c devices <*> <*> error: No such device or address,"exec timer expired, tty <*> <*> , user <*>",1,70026-jbass2-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Failed to receive <*> <*> request,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"access-list ACL-SNMP 1000 deny udp <*> <*> -> <*> 161 , <*> <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Found LSA with the same host bits but different mask. LSA with shorter mask will be used. LSA 1: <*> <*> LSA 2: <*> <*>,1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,70174-bheuu_ptj-acc1
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to Not NSR-Ready,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"bpm-default: <*> inst-id 0, Connection <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default, process instance 1: <*> inst-id 0, Connection Establised",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default: S inst-id 0, Initial Config Done",1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to NSR-Ready,1,kpguer02-asr9k
+<*> 0: emd: A register read operation has failed for device: sys bus i2c devices <*> register: sys bus i2c devices <*> <*> error: No such device or address,"exec timer expired, tty <*> <*> , user <*>",1,70026-jbass2-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Failed to receive <*> <*> request,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"access-list ACL-SNMP 1000 deny udp <*> <*> -> <*> 161 , <*> <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Found LSA with the same host bits but different mask. LSA with shorter mask will be used. LSA 1: <*> <*> LSA 2: <*> <*>,1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,70174-bheuu_ptj-acc1
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to Not NSR-Ready,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"bpm-default: <*> inst-id 0, Connection <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default, process instance 1: <*> inst-id 0, Connection Establised",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default: S inst-id 0, Initial Config Done",1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to NSR-Ready,1,kpguer02-asr9k
+<*> 0: emd: A register read operation has failed for device: sys bus i2c devices <*> register: sys bus i2c devices <*> <*> error: No such device or address,"exec timer expired, tty <*> <*> , user <*>",1,70026-jbass2-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Failed to receive <*> <*> request,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"access-list ACL-SNMP 1000 deny udp <*> <*> -> <*> 161 , <*> <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Found LSA with the same host bits but different mask. LSA with shorter mask will be used. LSA 1: <*> <*> LSA 2: <*> <*>,1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to NSR-Ready,1,kpguer02-asr9k
+<*> 0: emd: A register read operation has failed for device: sys bus i2c devices <*> register: sys bus i2c devices <*> <*> error: No such device or address,"exec timer expired, tty <*> <*> , user <*>",1,70026-jbass2-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Failed to receive <*> <*> request,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"access-list ACL-SNMP 1000 deny udp <*> <*> -> <*> 161 , <*> <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Found LSA with the same host bits but different mask. LSA with shorter mask will be used. LSA 1: <*> <*> LSA 2: <*> <*>,1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,70174-bheuu_ptj-acc1
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to Not NSR-Ready,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"bpm-default: <*> inst-id 0, Connection <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default, process instance 1: <*> inst-id 0, Connection Establised",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default: S inst-id 0, Initial Config Done",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default: S inst-id 0, Initial Config Done",1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to NSR-Ready,1,kpguer02-asr9k
+<*> 0: emd: A register read operation has failed for device: sys bus i2c devices <*> register: sys bus i2c devices <*> <*> error: No such device or address,"exec timer expired, tty <*> <*> , user <*>",1,70026-jbass2-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Failed to receive <*> <*> request,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"access-list ACL-SNMP 1000 deny udp <*> <*> -> <*> 161 , <*> <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Found LSA with the same host bits but different mask. LSA with shorter mask will be used. LSA 1: <*> <*> LSA 2: <*> <*>,1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to NSR-Ready,1,kpguer02-asr9k
+<*> 0: emd: A register read operation has failed for device: sys bus i2c devices <*> register: sys bus i2c devices <*> <*> error: No such device or address,"exec timer expired, tty <*> <*> , user <*>",1,70026-jbass2-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Failed to receive <*> <*> request,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"access-list ACL-SNMP 1000 deny udp <*> <*> -> <*> 161 , <*> <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Found LSA with the same host bits but different mask. LSA with shorter mask will be used. LSA 1: <*> <*> LSA 2: <*> <*>,1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,70174-bheuu_ptj-acc1
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to Not NSR-Ready,1,kpguer02-asr9k
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to NSR-Ready,1,kpguer02-asr9k
+<*> 0: emd: A register read operation has failed for device: sys bus i2c devices <*> register: sys bus i2c devices <*> <*> error: No such device or address,"exec timer expired, tty <*> <*> , user <*>",1,70026-jbass2-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Failed to receive <*> <*> request,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"access-list ACL-SNMP 1000 deny udp <*> <*> -> <*> 161 , <*> <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Found LSA with the same host bits but different mask. LSA with shorter mask will be used. LSA 1: <*> <*> LSA 2: <*> <*>,1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,70174-bheuu_ptj-acc1
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to Not NSR-Ready,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"bpm-default: <*> inst-id 0, Connection <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default, process instance 1: <*> inst-id 0, Connection Establised",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default: S inst-id 0, Initial Config Done",1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to NSR-Ready,1,kpguer02-asr9k
+<*> 0: emd: A register read operation has failed for device: sys bus i2c devices <*> register: sys bus i2c devices <*> <*> error: No such device or address,"exec timer expired, tty <*> <*> , user <*>",1,70026-jbass2-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Failed to receive <*> <*> request,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"access-list ACL-SNMP 1000 deny udp <*> <*> -> <*> 161 , <*> <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Found LSA with the same host bits but different mask. LSA with shorter mask will be used. LSA 1: <*> <*> LSA 2: <*> <*>,1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,70174-bheuu_ptj-acc1
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to Not NSR-Ready,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"bpm-default: <*> inst-id 0, Connection <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default, process instance 1: <*> inst-id 0, Connection Establised",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default: S inst-id 0, Initial Config Done",1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to NSR-Ready,1,kpguer02-asr9k
+<*> 0: emd: A register read operation has failed for device: sys bus i2c devices <*> register: sys bus i2c devices <*> <*> error: No such device or address,"exec timer expired, tty <*> <*> , user <*>",1,70026-jbass2-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Failed to receive <*> <*> request,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"access-list ACL-SNMP 1000 deny udp <*> <*> -> <*> 161 , <*> <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Found LSA with the same host bits but different mask. LSA with shorter mask will be used. LSA 1: <*> <*> LSA 2: <*> <*>,1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to NSR-Ready,1,kpguer02-asr9k
+<*> 0: emd: A register read operation has failed for device: sys bus i2c devices <*> register: sys bus i2c devices <*> <*> error: No such device or address,"exec timer expired, tty <*> <*> , user <*>",1,70026-jbass2-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Failed to receive <*> <*> request,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"access-list ACL-SNMP 1000 deny udp <*> <*> -> <*> 161 , <*> <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Found LSA with the same host bits but different mask. LSA with shorter mask will be used. LSA 1: <*> <*> LSA 2: <*> <*>,1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,70174-bheuu_ptj-acc1
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to Not NSR-Ready,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"bpm-default: <*> inst-id 0, Connection <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default, process instance 1: <*> inst-id 0, Connection Establised",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default: S inst-id 0, Initial Config Done",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default: S inst-id 0, Initial Config Done",1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to NSR-Ready,1,kpguer02-asr9k
+<*> 0: emd: A register read operation has failed for device: sys bus i2c devices <*> register: sys bus i2c devices <*> <*> error: No such device or address,"exec timer expired, tty <*> <*> , user <*>",1,70026-jbass2-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Failed to receive <*> <*> request,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"access-list ACL-SNMP 1000 deny udp <*> <*> -> <*> 161 , <*> <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Found LSA with the same host bits but different mask. LSA with shorter mask will be used. LSA 1: <*> <*> LSA 2: <*> <*>,1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to NSR-Ready,1,kpguer02-asr9k
+<*> 0: emd: A register read operation has failed for device: sys bus i2c devices <*> register: sys bus i2c devices <*> <*> error: No such device or address,"exec timer expired, tty <*> <*> , user <*>",1,70026-jbass2-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105

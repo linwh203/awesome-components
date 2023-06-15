@@ -1,0 +1,50 @@
+source,target,value,ip
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,70174-bheuu_ptj-acc1
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to Not NSR-Ready,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"bpm-default: <*> inst-id 0, Connection <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default, process instance 1: <*> inst-id 0, Connection Establised",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default: S inst-id 0, Initial Config Done",1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to NSR-Ready,1,kpguer02-asr9k
+<*> 0: emd: A register read operation has failed for device: sys bus i2c devices <*> register: sys bus i2c devices <*> <*> error: No such device or address,"exec timer expired, tty <*> <*> , user <*>",1,70026-jbass2-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Failed to receive <*> <*> request,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"access-list ACL-SNMP 1000 deny udp <*> <*> -> <*> 161 , <*> <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Found LSA with the same host bits but different mask. LSA with shorter mask will be used. LSA 1: <*> <*> LSA 2: <*> <*>,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,TACACS+ server <*> 49 is DOWN vrf: <*> server-private: <*> - Socket <*> Connection timed out,1,kpguer02-asr9k
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.244.26.208
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.244.26.208
+"exec timer expired, tty <*> <*> , user <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.244.253.222
+SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,"exec timer expired, tty <*> <*> , user <*>",1,10.244.253.222
+System Internal synchronization source is selected.,"exec timer expired, tty <*> <*> , user <*>",1,10.240.125.245
+Line protocol on Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.71.105
+Synchronization source TenGigabitEthernet0 <*> <*> <*> is selected by selection process T0 to synchronize the system and generate T0 output.,"exec timer expired, tty <*> <*> , user <*>",1,10.240.125.245
+SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,"exec timer expired, tty <*> <*> , user <*>",1,10.240.125.247
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.240.109.164
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.240.109.164
+Line protocol on Interface <*> changed state to <*>,User <*> has exited tty session <*> <*>,1,10.240.109.164
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.240.109.164
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.240.109.164
+Interface <*> changed state to <*>,User <*> has exited tty session <*> <*>,1,10.240.109.164
+SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,Connection to PCE <*> <*>,1,10.240.109.164
+"exec timer expired, tty <*> <*> , user <*>",sent to neighbor <*> 4 0 hold time expired 0 bytes,1,60014-gngmedan-aggb01
+"exec timer expired, tty <*> <*> , user <*>",neighbor <*> Down BGP Notification <*>,1,60014-gngmedan-aggb01
+sent to neighbor <*> 4 0 hold time expired 0 bytes,"exec timer expired, tty <*> <*> , user <*>",1,60014-gngmedan-aggb01
+neighbor <*> Down BGP Notification <*>,"exec timer expired, tty <*> <*> , user <*>",1,60014-gngmedan-aggb01
+neighbor <*> Up,"exec timer expired, tty <*> <*> , user <*>",1,60014-gngmedan-aggb01
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,43321-pasirputih2-acc1
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,43321-pasirputih2-acc1
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.240.109.197
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>","exec timer expired, tty <*> <*> , user <*>",1,10.240.109.197
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.55.48
+"Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.240.109.197
+"Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*>","exec timer expired, tty <*> <*> , user <*>",1,10.240.109.197
+BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.240.109.197
+BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,"exec timer expired, tty <*> <*> , user <*>",1,10.240.109.197
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,20067-poring-acc1
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,20067-poring-acc1
+Synchronization source TenGigabitEthernet0 <*> <*> <*> is selected by selection process T0 to synchronize the system and generate T0 output.,The system clock has been set.,1,60098-celcomkangaroff-acc1
+Synchronization source TenGigabitEthernet0 <*> <*> <*> is selected by selection process T0 to synchronize the system and generate T0 output.,cleared CRITICAL xcvr container 0 <*> <*> Transceiver Missing - Link Down,1,60098-celcomkangaroff-acc1

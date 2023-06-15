@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-boxa;
+            color: white;
+        }
+        .contact-form {
+            display: grid;
+            gap: 1.25rem;
+        }
+        @media (min-width: 35em) {
+            .contact-form {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        /* label {
+            display: block;
+        }
+        input {
+            width: 100%;
+        } */
+        .form-group {
+            display: grid;
+            gap: 0.5rem;
+        }
+        .form-group--full-width {
+            grid-column: 1 / -1;
+        }
+        button {
+            color: black;
+        }
+        .main-layout {
+            /* dvh(dynamic) can make mobile browser set correct vh, but not supported by all browsers, so use 100vh to cover browser support. */
+            min-height: 100vh; 
+            min-height: 100dvh;
+
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            border: 3px solid limegreen;
+        }
+        header, footer {
+            line-height: 40px;
+            background-color: rgb(3, 123, 163);
+        }
+        main {
+            background-color: black;
+            display: grid;
+            place-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-layout">
+        <header>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos est ex repellendus minus magnam a odit numquam facilis quidem. Fugit architecto nam tenetur, voluptates itaque accusantium neque maiores aliquid vero.</header>
+        <main>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">name</label>
+                    <input id="name" type="text" />
+                </div>
+                <div class="form-group">
+                    <label for="email">email</label>
+                    <input id="email" type="text" />
+                </div>
+                <div class="form-group">
+                    <label for="color">Favorite color</label>
+                    <input id="color" type="text" />
+                </div>
+                <div class="form-group">
+                    <label for="number">Favorite number</label>
+                    <input id="number" type="text" />
+                </div>
+                <div class="form-group">
+                    <label for="animal">Favorite animal</label>
+                    <input id="animal" type="text" />
+                </div>
+                <div class="form-group">
+                    <label for="drink">Favorite drink</label>
+                    <input id="drink" type="text" />
+                </div>
+                <div class="form-group form-group--full-width">
+                    <label for="article">Favorite article</label>
+                   <textarea name="article" id="article" cols="30" rows="10"></textarea>
+                </div>
+                <button>Submit</button>
+            </form>
+        </main>
+        <footer>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit distinctio cumque at adipisci, facere autem ipsum assumenda rerum ex unde explicabo eaque, veritatis quam quos ea accusamus aspernatur, odit ipsa.</footer>
+    </div>
+</body>
+<script>
+    document.cookie = "token=xxxxxxxxxxxxxxxx"
+</script>
+</html>

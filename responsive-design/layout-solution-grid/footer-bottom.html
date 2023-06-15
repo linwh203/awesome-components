@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-boxa;
+            color: white;
+        }
+        .main-layout {
+            /* dvh(dynamic) can make mobile browser set correct vh, but not supported by all browsers, so use 100vh to cover browser support. */
+            min-height: 100vh; 
+            min-height: 100dvh;
+
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            border: 3px solid limegreen;
+        }
+        header, footer {
+            line-height: 40px;
+            background-color: rgb(3, 123, 163);
+        }
+        main {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-layout">
+        <header>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos est ex repellendus minus magnam a odit numquam facilis quidem. Fugit architecto nam tenetur, voluptates itaque accusantium neque maiores aliquid vero.</header>
+        <main>Hello</main>
+        <footer>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit distinctio cumque at adipisci, facere autem ipsum assumenda rerum ex unde explicabo eaque, veritatis quam quos ea accusamus aspernatur, odit ipsa.</footer>
+    </div>
+</body>
+</html>

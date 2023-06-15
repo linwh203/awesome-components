@@ -1,0 +1,200 @@
+source,target,value,ip
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,70174-bheuu_ptj-acc1
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to Not NSR-Ready,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"bpm-default: <*> inst-id 0, Connection <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default, process instance 1: <*> inst-id 0, Connection Establised",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"default: S inst-id 0, Initial Config Done",1,kpguer02-asr9k
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Changed state to NSR-Ready,1,kpguer02-asr9k
+<*> 0: emd: A register read operation has failed for device: sys bus i2c devices <*> register: sys bus i2c devices <*> <*> error: No such device or address,"exec timer expired, tty <*> <*> , user <*>",1,70026-jbass2-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.71.105
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Failed to receive <*> <*> request,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"access-list ACL-SNMP 1000 deny udp <*> <*> -> <*> 161 , <*> <*>",1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,Found LSA with the same host bits but different mask. LSA with shorter mask will be used. LSA 1: <*> <*> LSA 2: <*> <*>,1,kpguer02-asr9k
+NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,TACACS+ server <*> 49 is DOWN vrf: <*> server-private: <*> - Socket <*> Connection timed out,1,kpguer02-asr9k
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.244.26.208
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.244.26.208
+"exec timer expired, tty <*> <*> , user <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.244.253.222
+SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,"exec timer expired, tty <*> <*> , user <*>",1,10.244.253.222
+System Internal synchronization source is selected.,"exec timer expired, tty <*> <*> , user <*>",1,10.240.125.245
+Line protocol on Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.71.105
+Synchronization source TenGigabitEthernet0 <*> <*> <*> is selected by selection process T0 to synchronize the system and generate T0 output.,"exec timer expired, tty <*> <*> , user <*>",1,10.240.125.245
+SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,"exec timer expired, tty <*> <*> , user <*>",1,10.240.125.247
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.240.109.164
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.240.109.164
+Line protocol on Interface <*> changed state to <*>,User <*> has exited tty session <*> <*>,1,10.240.109.164
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.240.109.164
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.240.109.164
+Interface <*> changed state to <*>,User <*> has exited tty session <*> <*>,1,10.240.109.164
+SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,Connection to PCE <*> <*>,1,10.240.109.164
+"exec timer expired, tty <*> <*> , user <*>",sent to neighbor <*> 4 0 hold time expired 0 bytes,1,60014-gngmedan-aggb01
+"exec timer expired, tty <*> <*> , user <*>",neighbor <*> Down BGP Notification <*>,1,60014-gngmedan-aggb01
+sent to neighbor <*> 4 0 hold time expired 0 bytes,"exec timer expired, tty <*> <*> , user <*>",1,60014-gngmedan-aggb01
+neighbor <*> Down BGP Notification <*>,"exec timer expired, tty <*> <*> , user <*>",1,60014-gngmedan-aggb01
+neighbor <*> Up,"exec timer expired, tty <*> <*> , user <*>",1,60014-gngmedan-aggb01
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,43321-pasirputih2-acc1
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,43321-pasirputih2-acc1
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.240.109.197
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>","exec timer expired, tty <*> <*> , user <*>",1,10.240.109.197
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.55.48
+"Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.240.109.197
+"Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*>","exec timer expired, tty <*> <*> , user <*>",1,10.240.109.197
+BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.240.109.197
+BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,"exec timer expired, tty <*> <*> , user <*>",1,10.240.109.197
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,20067-poring-acc1
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,20067-poring-acc1
+Synchronization source TenGigabitEthernet0 <*> <*> <*> is selected by selection process T0 to synchronize the system and generate T0 output.,The system clock has been set.,1,60098-celcomkangaroff-acc1
+Synchronization source TenGigabitEthernet0 <*> <*> <*> is selected by selection process T0 to synchronize the system and generate T0 output.,cleared CRITICAL xcvr container 0 <*> <*> Transceiver Missing - Link Down,1,60098-celcomkangaroff-acc1
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.55.48
+LDP Neighbor <*> <*> is UP,GR session <*> inst <*> : interrupted--recovery pending,1,70019-bktdinding-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.55.48
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.55.48
+LDP Neighbor <*> <*> is UP,LDP Neighbor <*> 0 is DOWN <*> <*> <*> <*> <*>,1,70019-bktdinding-aggb01
+asserted CRITICAL Power Supply Module <*> Power Supply Failure,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.244.253.162
+The Power Supply in slot <*> is switched off or encountering a failure condition.,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.244.253.162
+cleared CRITICAL Power Supply Module <*> Power Supply Failure,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.244.253.162
+The <*> in <*> <*> is functioning properly,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.244.253.162
+User <*> has exited tty session <*> <*>,"Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*>",1,30279-kualaigan-acc1
+User <*> has exited tty session <*> <*>,BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,1,30279-kualaigan-acc1
+User <*> has exited tty session <*> <*>,"Process 1, Nbr <*> on <*> <*> <*> from <*> to DOWN, Neighbor Down: <*> <*> <*>",1,60152-4734jlnkedawang-acc1
+User <*> has exited tty session <*> <*>,BFD-SYSLOG: BFD session <*> <*> is going UP,1,60152-4734jlnkedawang-acc1
+User <*> has exited tty session <*> <*>,BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,1,60152-4734jlnkedawang-acc1
+User <*> has exited tty session <*> <*>,"Process 1, Nbr <*> on <*> <*> <*> from <*> to <*> <*> <*>",1,60152-4734jlnkedawang-acc1
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",Process <*> Nbr <*> on <*> from <*> to <*> <*> <*>,1,30279-kualaigan-acc1
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>","BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> act",1,30279-kualaigan-acc1
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",BFD-SYSLOG: BFD session <*> <*> is going UP,1,30279-kualaigan-acc1
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,66076-kintajaya-acc1
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,66076-kintajaya-acc1
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> act","BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",1,20021-starkkid-acc1
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> act",User <*> has exited tty session <*> <*>,1,20021-starkkid-acc1
+User <*> has exited tty session <*> <*>,"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> act",1,20021-starkkid-acc1
+Line protocol on Interface <*> changed state to <*>,The system clock has been set.,1,10.240.109.224
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.240.109.224
+Line protocol on Interface <*> changed state to <*>,asserted CRITICAL <*> <*> <*> Physical Port Link Down,1,10.240.109.224
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.240.109.224
+Interface <*> changed state to <*>,The system clock has been set.,1,10.240.109.224
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.240.109.224
+Interface <*> changed state to <*>,asserted CRITICAL <*> <*> <*> Physical Port Link Down,1,10.240.109.224
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.240.109.224
+User <*> has exited tty session <*> <*>,Interface <*> changed state to <*>,1,43022-ponderosa-acc1
+Interface <*> changed state to <*>,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.244.57.223
+User <*> has exited tty session <*> <*>,Line protocol on Interface <*> changed state to <*>,1,43022-ponderosa-acc1
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.57.223
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.57.223
+Line protocol on Interface <*> changed state to <*>,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.244.57.223
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.57.223
+Interface <*> changed state to <*>,User <*> has exited tty session <*> <*>,1,43022-ponderosa-acc1
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,43022-ponderosa-acc1
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,43022-ponderosa-acc1
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.57.223
+"Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,30228-tmtebakang-acc1
+Line protocol on Interface <*> changed state to <*>,User <*> has exited tty session <*> <*>,1,43022-ponderosa-acc1
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,43022-ponderosa-acc1
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,43022-ponderosa-acc1
+Interface <*> changed state to <*>,asserted CRITICAL <*> <*> <*> Physical Port Link Down,1,30204-kingcenter-acc1
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,30204-kingcenter-acc1
+Line protocol on Interface <*> changed state to <*>,asserted CRITICAL <*> <*> <*> Physical Port Link Down,1,30204-kingcenter-acc1
+Line protocol on Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,30204-kingcenter-acc1
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.55.152
+Interface <*> changed state to <*>,asserted CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.55.152
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.55.152
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.55.152
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,10.244.55.152
+Line protocol on Interface <*> changed state to <*>,asserted CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.55.152
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,10.244.55.152
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,30157-tt844-acc1
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,30157-tt844-acc1
+Line protocol on Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,10.244.55.152
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act","exec timer expired, tty <*> <*> , user <*>",1,10.244.26.171
+User <*> has exited tty session <*> <*>,"Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*>",1,70280-bkttempeyek-acc1
+User <*> has exited tty session <*> <*>,BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,1,70280-bkttempeyek-acc1
+User <*> has exited tty session <*> <*>,Process <*> Nbr <*> on <*> from <*> to <*> <*> <*>,1,70280-bkttempeyek-acc1
+User <*> has exited tty session <*> <*>,BFD-SYSLOG: BFD session <*> <*> is going UP,1,70280-bkttempeyek-acc1
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,66084-bgnpknp-acc1
+User <*> has exited tty session <*> <*>,Interface <*> <*> <*> changed state to <*>,1,30214-senadin2-acc1
+User <*> has exited tty session <*> <*>,Interface <*> changed state to <*>,1,30214-senadin2-acc1
+User <*> has exited tty session <*> <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,30214-senadin2-acc1
+User <*> has exited tty session <*> <*>,Line protocol on Interface <*> changed state to <*>,1,30214-senadin2-acc1
+Interface <*> changed state to <*>,User <*> has exited tty session <*> <*>,1,30214-senadin2-acc1
+Line protocol on Interface <*> changed state to <*>,User <*> has exited tty session <*> <*>,1,30214-senadin2-acc1
+SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,"exec timer expired, tty <*> <*> , user <*>",1,10.244.253.163
+Interface <*> <*> <*> changed state to <*>,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.240.232.120
+interface <*> <*> <*> update IP Routing state to <*> interface is not suppressed,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.240.232.120
+Line protocol on Interface <*> <*> <*> changed state to <*>,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.240.232.120
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,43346-hentianpenawar-acc1
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,43346-hentianpenawar-acc1
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,43346-hentianpenawar-acc1
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,43346-hentianpenawar-acc1
+User <*> has exited tty session <*> <*>,"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act",1,70078-tmnsuntex-aggb01
+User <*> has exited tty session <*> <*>,"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",1,70078-tmnsuntex-aggb01
+User <*> has exited tty session <*> <*>,"exec timer expired, tty <*> <*> , user <*>",1,70651-tmbdrbarubangi-acc1
+"exec timer expired, tty <*> <*> , user <*>",User <*> has exited tty session <*> <*>,1,70651-tmbdrbarubangi-acc1
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act",User <*> has exited tty session <*> <*>,1,70078-tmnsuntex-aggb01
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",User <*> has exited tty session <*> <*>,1,70078-tmnsuntex-aggb01
+"exec timer expired, tty <*> <*> , user <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,50090-bt3jlngambang-acc1
+Line protocol on Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,30161-tmbktlambir-acc1
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,30161-tmbktlambir-acc1
+Line protocol on Interface <*> changed state to <*>,asserted CRITICAL <*> <*> <*> Physical Port Link Down,1,30161-tmbktlambir-acc1
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,30161-tmbktlambir-acc1
+Interface <*> changed state to <*>,cleared CRITICAL <*> <*> <*> Physical Port Link Down,1,30161-tmbktlambir-acc1
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,30161-tmbktlambir-acc1
+Interface <*> changed state to <*>,asserted CRITICAL <*> <*> <*> Physical Port Link Down,1,30161-tmbktlambir-acc1
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,30161-tmbktlambir-acc1
+Process <*> Nbr <*> on <*> from <*> to <*> <*> <*>,"Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*>",1,10.240.109.112
+Process <*> Nbr <*> on <*> from <*> to <*> <*> <*>,BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,1,10.240.109.112
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> act","Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*>",1,10.240.109.112
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> act",BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,1,10.240.109.112
+BFD-SYSLOG: BFD session <*> <*> is going UP,"Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*>",1,10.240.109.112
+BFD-SYSLOG: BFD session <*> <*> is going UP,BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,1,10.240.109.112
+User <*> has exited tty session <*> <*>,"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",1,30176-kapit-acc1
+User <*> has exited tty session <*> <*>,"Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*>",1,30176-kapit-acc1
+User <*> has exited tty session <*> <*>,BFD-SYSLOG: BFD session <*> <*> is going UP,1,30176-kapit-acc1
+User <*> has exited tty session <*> <*>,BFD-SYSLOG: BFD session <*> <*> going Down Reason: RX <*>,1,30176-kapit-acc1
+BFD-SYSLOG: BFD session <*> <*> is going UP,User <*> has exited tty session <*> <*>,1,30176-kapit-acc1
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act",interface <*> <*> <*> update IP Routing state to <*> interface is not suppressed,1,60102-mrsmberseri-acc1
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act",Line protocol on Interface <*> <*> <*> changed state to <*>,1,60102-mrsmberseri-acc1
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act",Interface <*> <*> <*> changed state to <*>,1,60102-mrsmberseri-acc1
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act",User <*> has exited tty session <*> <*>,1,60102-mrsmberseri-acc1
+User <*> has exited tty session <*> <*>,"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act",1,60102-mrsmberseri-acc1
+SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",1,56011-btgmerbau-aggb01
+SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,Interface <*> changed state to <*>,1,56011-btgmerbau-aggb01
+SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,Line protocol on Interface <*> changed state to <*>,1,56011-btgmerbau-aggb01
+SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,interface <*> update IP Routing state to <*> interface is not suppressed,1,56011-btgmerbau-aggb01
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,56011-btgmerbau-aggb01
+Interface <*> changed state to <*>,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,56011-btgmerbau-aggb01
+Line protocol on Interface <*> changed state to <*>,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,56011-btgmerbau-aggb01
+Line protocol on Interface <*> changed state to <*>,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,53030-kg_tok_dir-acc1
+interface <*> update IP Routing state to <*> interface is not suppressed,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,56011-btgmerbau-aggb01
+Interface <*> changed state to <*>,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,53030-kg_tok_dir-acc1
+User <*> has exited tty session <*> <*>,Interface <*> changed state to <*>,1,53054-paya_rawa-acc1
+User <*> has exited tty session <*> <*>,Line protocol on Interface <*> changed state to <*>,1,53054-paya_rawa-acc1
+Interface <*> changed state to <*>,User <*> has exited tty session <*> <*>,1,53054-paya_rawa-acc1
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,53054-paya_rawa-acc1
+Interface <*> changed state to <*>,asserted CRITICAL <*> <*> <*> Physical Port Link Down,1,53054-paya_rawa-acc1
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,53054-paya_rawa-acc1
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>","exec timer expired, tty <*> <*> , user <*>",1,10.244.26.139
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act","exec timer expired, tty <*> <*> , user <*>",1,10.244.26.139
+Line protocol on Interface <*> changed state to <*>,User <*> has exited tty session <*> <*>,1,53054-paya_rawa-acc1
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,53054-paya_rawa-acc1
+Line protocol on Interface <*> changed state to <*>,asserted CRITICAL <*> <*> <*> Physical Port Link Down,1,53054-paya_rawa-acc1
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,53054-paya_rawa-acc1
+BFD-SYSLOG: BFD session <*> <*> is going UP,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,60110-telagaharbour-aggb1
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,60110-telagaharbour-aggb1
+"exec timer expired, tty <*> <*> , user <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.240.108.181
+SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,"exec timer expired, tty <*> <*> , user <*>",1,10.240.108.181
+"access-list VTY-ACL 1000 deny tcp <*> <*> -> <*> 22 , <*> <*>",CM entitlement update <*> <*>,1,shtpe01-asr9k
+"access-list VTY-ACL 1000 deny tcp <*> <*> -> <*> 22 , <*> <*>",Failed to read from socket :Connection timed out,1,shtpe01-asr9k
+Failed to read from socket :Connection timed out,"access-list VTY-ACL 1000 deny tcp <*> <*> -> <*> 22 , <*> <*>",1,shtpe01-asr9k
+User <*> has exited tty session <*> <*>,BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,1,30222-pknspaoh-acc1
+BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,User <*> has exited tty session <*> <*>,1,30222-pknspaoh-acc1
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.244.26.216
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.244.26.216
+The system clock has been set.,SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,10.244.71.83
+"BFD-SYSLOG: bfd_session_created, neigh <*> <*> <*> <*> <*> <*> act",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,66133-wismapeakhua-acc1
+"BFD-SYSLOG: bfd_session_destroyed, <*> neigh <*> <*> <*>",SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,1,66133-wismapeakhua-acc1
+Line protocol on Interface <*> changed state to <*>,interface <*> <*> <*> update IP Routing state to <*> interface is not suppressed,1,60024-westin-acc2
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,1,60024-westin-acc2
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,1,60024-westin-acc2

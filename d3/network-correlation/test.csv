@@ -1,0 +1,10 @@
+source,target,value,ip
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,0.9,66029-airkuning-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,0.9,66029-airkuning-aggb01
+Line protocol on Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,0.9,70820-batangkalird-acc1
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,0.9,70820-batangkalird-acc1
+Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,0.9,66029-airkuning-aggb01
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,0.9,66029-airkuning-aggb01
+Interface <*> changed state to <*>,Interface <*> <*> <*> changed state to <*>,0.9,70820-batangkalird-acc1
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,0.9,70820-batangkalird-acc1
+Line protocol on Interface <*> changed state to <*>,Line protocol on Interface <*> <*> <*> changed state to <*>,0.9,30223-tmnsuriajaya-acc1

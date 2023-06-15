@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-boxa;
+            color: white;
+        }
+        img {
+            width: 100%;
+            height: 400px;
+            display: block;
+            object-fit: cover;
+        }
+        .primary-header {
+            display: grid;
+            /* grid-template-areas: 'stack'; */
+            place-items: center;
+        }
+        .primary-header > * {
+            /* same result with grid-area, but easy for media query to change layouts */
+            /* grid-area: stack; */
+            grid-row: 1 / -1;
+            grid-column: 1 / -1;
+        }
+        @media (min-width: 50em) {
+            .primary-header {
+                grid-template-columns: 1fr 1fr;
+            }
+            .primary-header__image {
+                grid-column: 1;
+            }
+            .primary-header__title {
+                grid-column: 2;
+            }
+        }
+        .main-layout {
+            /* dvh(dynamic) can make mobile browser set correct vh, but not supported by all browsers, so use 100vh to cover browser support. */
+            min-height: 100vh; 
+            min-height: 100dvh;
+
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            border: 3px solid limegreen;
+        }
+        header, footer {
+            line-height: 40px;
+            background-color: rgb(3, 123, 163);
+        }
+        main {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-layout">
+        <header class="primary-header">
+            <img src="../../assets/img2.jpg" alt="kitty" class="primary-header__image">
+            <h1 class="primary-header__title">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos est ex repellendus minus magnam a odit numquam facilis quidem. Fugit architecto nam tenetur, voluptates itaque accusantium neque maiores aliquid vero.
+            </h1>
+        </header>
+        <main>Hello</main>
+        <footer>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit distinctio cumque at adipisci, facere autem ipsum assumenda rerum ex unde explicabo eaque, veritatis quam quos ea accusamus aspernatur, odit ipsa.</footer>
+    </div>
+</body>
+</html>

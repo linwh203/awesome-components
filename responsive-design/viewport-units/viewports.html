@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="viewports.css" />
+  </head>
+  <body>
+    <header>
+        <div>
+            <h1>How to set 100 view height ?</h1>
+            <p>100vh has issue on mobile, mobile doesn't count address bar into 100vh</p>
+            <p>solution No.1: using dvh unit. set to 100dvh, but the page will re-adjust dynamic height to re-render for 1 second.</p>
+            <p>solution No.2: using svh unit. set to 100svh. s means always using small view port(assuming address bar or other stuff always be there) size</p>
+            <p>svh not supported on desktop very well, a good way is set height:</p>
+            <p>height: 100vh; <br> height: 100svh;</p>
+            <p>there also have lvh, means large view port size</p>
+            <p>for font-size, a better way is using clamp unit</p>
+        </div>
+        <div class="bottom">
+            <p>Something needs to stick at the bottom</p>
+        </div>
+    </header>
+    <h1 class="page-title">Viewport units are... not so great 🤷</h1>
+    <div class="profile">
+      <img
+        class="profile__img"
+        src="https://images.unsplash.com/photo-1504199367641-aba8151af406?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzQ1NzUwNTE&ixlib=rb-4.0.3&q=80&w=400"
+      />
+      <div class="profile__content">
+        <h2 class="profile__name">Johnny Doe</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+          cupiditate atque consectetur est ratione! Laboriosam.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+          cupiditate atque consectetur est ratione! Laboriosam.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

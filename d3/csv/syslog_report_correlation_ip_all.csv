@@ -1,0 +1,278 @@
+source,target,value,ip
+SECURITY-SSHD-6-INFO_SUCCESS :Successfully authenticated user <*> from <*> on <*> cipher <*> mac <*>,SECURITY-SSHD-6-INFO_USER_LOGOUT :User <*> from <*> logged out on <*>,0.695272,all
+SECURITY-SSHD-6-INFO_SUCCESS :Successfully authenticated user <*> from <*> on <*> cipher <*> mac <*>,IP-STANDBY-4-WARN_BADVIP :Mismatching virtual IP address of <*> from group <*> Local address is <*>,0.677178,all
+SECURITY-SSHD-6-INFO_SUCCESS :Successfully authenticated user <*> from <*> on <*> cipher <*> mac <*>,ROUTING-BGP-5-NBR_NSR_DISABLED_STANDBY :NSR disabled on neighbor <*> on standby RP due to <*> <*> VRF: <*>,0.620396,all
+SECURITY-SSHD-6-INFO_SUCCESS :Successfully authenticated user <*> from <*> on <*> cipher <*> mac <*>,ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Down - BGP Notification <*> <*> <*> <*> VRF: <*> AFI SAFI: <*> <*> AS: <*>,0.620396,all
+SECURITY-SSHD-6-INFO_USER_LOGOUT :User <*> from <*> logged out on <*>,SECURITY-SSHD-6-INFO_SUCCESS :Successfully authenticated user <*> from <*> on <*> cipher <*> mac <*>,0.691937,all
+SECURITY-SSHD-6-INFO_USER_LOGOUT :User <*> from <*> logged out on <*>,IP-STANDBY-4-WARN_BADVIP :Mismatching virtual IP address of <*> from group <*> Local address is <*>,0.62507,all
+SECURITY-SSHD-6-INFO_USER_LOGOUT :User <*> from <*> logged out on <*>,PLATFORM-DPA-2-RX_FAULT :Interface HundredGigE0 <*> <*> <*> Detected <*> Fault,0.611057,all
+SSH-5-SSH_CLOSE:SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,ROUTING-OSPF-5-ADJCHG :Process <*> Nbr <*> on <*> in area <*> from <*> to <*> <*> vrf default vrfid 0x60000000,0.787305,all
+SSH-5-SSH_CLOSE:SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,ROUTING-LDP-5-NSR_SYNC_START :Initial synchronization started for <*> peers,0.722255,all
+IP-STANDBY-4-WARN_BADVIP :Mismatching virtual IP address of <*> from group <*> Local address is <*>,SECURITY-SSHD-6-INFO_SUCCESS :Successfully authenticated user <*> from <*> on <*> cipher <*> mac <*>,0.675522,all
+IP-STANDBY-4-WARN_BADVIP :Mismatching virtual IP address of <*> from group <*> Local address is <*>,SECURITY-SSHD-6-INFO_USER_LOGOUT :User <*> from <*> logged out on <*>,0.63293,all
+PKT_INFRA-LINK-3-UPDOWN :Interface <*> <*> <*> <*> changed state to <*>,PKT_INFRA-LINEPROTO-5-UPDOWN :Line protocol on Interface <*> <*> <*> <*> changed state to <*>,0.773581,all
+PKT_INFRA-LINK-3-UPDOWN :Interface <*> <*> <*> <*> changed state to <*>,ROUTING-BGP-5-NBR_NSR_DISABLED_STANDBY :NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,0.679248,all
+PKT_INFRA-LINK-3-UPDOWN :Interface <*> <*> <*> <*> changed state to <*>,BFDFSM-6-BFD_SESS_DOWN:BFD-SYSLOG: BFD session <*> <*> going Down Reason: RX <*>,0.677484,all
+PKT_INFRA-LINEPROTO-5-UPDOWN :Line protocol on Interface <*> <*> <*> <*> changed state to <*>,PKT_INFRA-LINK-3-UPDOWN :Interface <*> <*> <*> <*> changed state to <*>,0.773581,all
+PKT_INFRA-LINEPROTO-5-UPDOWN :Line protocol on Interface <*> <*> <*> <*> changed state to <*>,ROUTING-BGP-5-NBR_NSR_DISABLED_STANDBY :NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,0.675896,all
+PKT_INFRA-LINEPROTO-5-UPDOWN :Line protocol on Interface <*> <*> <*> <*> changed state to <*>,BFDFSM-6-BFD_SESS_DOWN:BFD-SYSLOG: BFD session <*> <*> going Down Reason: RX <*>,0.674161,all
+PKT_INFRA-LINK-3-UPDOWN :Interface <*> changed state to <*>,PKT_INFRA-LINEPROTO-5-UPDOWN :Line protocol on Interface <*> changed state to <*>,0.777693,all
+PKT_INFRA-LINEPROTO-5-UPDOWN :Line protocol on Interface <*> changed state to <*>,PKT_INFRA-LINK-3-UPDOWN :Interface <*> changed state to <*>,0.777693,all
+SERVICES-OT-6-TRACK_INFO :track <*> state <*>,ROUTING-LDP-5-NSR_SYNC_START :Initial synchronization started for <*> peers,0.684657,all
+SERVICES-OT-6-TRACK_INFO :track <*> state <*>,"ROUTING-LDP-5-NSR_SYNC_PEER_DONE :VRF 'default' 0x60000000 , Peer <*> initial synchronization done",0.712472,all
+SERVICES-OT-6-TRACK_INFO :track <*> state <*>,ROUTING-LDP-5-NSR_SYNC_DONE :Initial synchronization successfully done for <*> peers,0.712468,all
+LINK-3-UPDOWN:Interface <*> <*> <*> changed state to <*>,LINEPROTO-5-UPDOWN:Line protocol on Interface <*> <*> <*> changed state to <*>,0.755603,all
+LINK-3-UPDOWN:Interface <*> <*> <*> changed state to <*>,IOSXE_RP_ALARM-6-INFO:cleared CRITICAL <*> <*> <*> Physical Port Link Down,0.678883,all
+LINK-3-UPDOWN:Interface <*> <*> <*> changed state to <*>,IOSXE_RP_ALARM-6-INFO:asserted CRITICAL <*> <*> <*> Physical Port Link Down,0.679669,all
+LINEPROTO-5-UPDOWN:Line protocol on Interface <*> <*> <*> changed state to <*>,LINK-3-UPDOWN:Interface <*> <*> <*> changed state to <*>,0.755604,all
+LINEPROTO-5-UPDOWN:Line protocol on Interface <*> <*> <*> changed state to <*>,IOSXE_RP_ALARM-6-INFO:cleared CRITICAL <*> <*> <*> Physical Port Link Down,0.655405,all
+LINEPROTO-5-UPDOWN:Line protocol on Interface <*> <*> <*> changed state to <*>,IOSXE_RP_ALARM-6-INFO:asserted CRITICAL <*> <*> <*> Physical Port Link Down,0.661986,all
+IOSXE_RP_ALARM-6-INFO:cleared CRITICAL <*> <*> <*> Physical Port Link Down,LINK-3-UPDOWN:Interface <*> <*> <*> changed state to <*>,0.678888,all
+IOSXE_RP_ALARM-6-INFO:cleared CRITICAL <*> <*> <*> Physical Port Link Down,LINEPROTO-5-UPDOWN:Line protocol on Interface <*> <*> <*> changed state to <*>,0.655409,all
+IOSXE_RP_ALARM-6-INFO:cleared CRITICAL <*> <*> <*> Physical Port Link Down,IOSXE_RP_ALARM-6-INFO:asserted CRITICAL <*> <*> <*> Physical Port Link Down,0.690208,all
+IP-STANDBY-6-INFO_STATECHANGE :<*> <*> state Speak#011 -> Standby,IP-STANDBY-6-INFO_STATECHANGE :<*> <*> state <*> -> Active,0.675098,all
+IP-STANDBY-6-INFO_STATECHANGE :<*> <*> state Speak#011 -> Standby,IP-STANDBY-6-INFO_STATECHANGE :<*> <*> state Active#011 -> Speak,0.673049,all
+HA-HA_WD-3-DISK_ALARM_ALERT :A monitored device rootfs: is above 80% utilization. Current utilization = <*> Please remove unwanted user files and configuration rollback points.,HA-HA_WD-3-DISK_ALARM_ALERT :A monitored device misc disk1 harddisk: is above 80% utilization. Current utilization = <*> Please remove unwanted user files and configuration rollback points.,0.636881,all
+HA-HA_WD-3-DISK_ALARM_ALERT :A monitored device misc disk1 harddisk: is above 80% utilization. Current utilization = <*> Please remove unwanted user files and configuration rollback points.,HA-HA_WD-3-DISK_ALARM_ALERT :A monitored device rootfs: is above 80% utilization. Current utilization = <*> Please remove unwanted user files and configuration rollback points.,0.636882,all
+IOSXE_RP_ALARM-6-INFO:asserted CRITICAL <*> <*> <*> Physical Port Link Down,LINK-3-UPDOWN:Interface <*> <*> <*> changed state to <*>,0.679674,all
+IOSXE_RP_ALARM-6-INFO:asserted CRITICAL <*> <*> <*> Physical Port Link Down,LINEPROTO-5-UPDOWN:Line protocol on Interface <*> <*> <*> changed state to <*>,0.661989,all
+IOSXE_RP_ALARM-6-INFO:asserted CRITICAL <*> <*> <*> Physical Port Link Down,IOSXE_RP_ALARM-6-INFO:cleared CRITICAL <*> <*> <*> Physical Port Link Down,0.690208,all
+PLATFORM-VIC-4-RX_LOS :Interface <*> <*> 0 <*> Detected Rx Loss of Signal,PLATFORM-VIC-4-SIGNAL :Interface <*> <*> <*> <*> Detected Signal failure,0.670136,all
+PLATFORM-VIC-4-RX_LOS :Interface <*> <*> 0 <*> Detected Rx Loss of Signal,ETHPORT-5-IF_UP:Interface <*> <*> is up in mode <*>,0.760165,all
+PLATFORM-VIC-4-RX_LOS :Interface <*> <*> 0 <*> Detected Rx Loss of Signal,PKT_INFRA-FM-2-FAULT_CRITICAL :ALARM_CRITICAL :OPTICS RX POWER <*> LOW ALARM <*> : <*> <*> <*> <*>,0.619241,all
+PLATFORM-VIC-4-SIGNAL :Interface <*> <*> <*> <*> Detected Signal failure,PLATFORM-VIC-4-RX_LOS :Interface <*> <*> 0 <*> Detected Rx Loss of Signal,0.670136,all
+PLATFORM-VIC-4-SIGNAL :Interface <*> <*> <*> <*> Detected Signal failure,BGP-3-NOTIFICATION:sent to neighbor <*> 4 0 hold time expired 0 bytes,0.636189,all
+PLATFORM-VIC-4-SIGNAL :Interface <*> <*> <*> <*> Detected Signal failure,IFDAMP-5-UPDOWN:interface <*> update IP Routing state to <*> interface is not suppressed,0.66486,all
+IP-STANDBY-6-INFO_STATECHANGE :<*> <*> state <*> -> Active,IP-STANDBY-6-INFO_STATECHANGE :<*> <*> state Speak#011 -> Standby,0.675098,all
+IP-STANDBY-6-INFO_STATECHANGE :<*> <*> state Active#011 -> Speak,IP-STANDBY-6-INFO_STATECHANGE :<*> <*> state Speak#011 -> Standby,0.673049,all
+"SFF8472-3-THRESHOLD_VIOLATION:<*> <*> <*> Temperature high <*> Operating value: <*> C, Threshold value: <*> C.",BFDFSM-6-BFD_SESS_UP:BFD-SYSLOG: BFD session <*> <*> is going UP,0.601258,all
+IOSXE_RP_ALARM-6-INFO:asserted <*> Temp: <*> <*> <*> Temp Above Normal,"ENVIRONMENTAL-6-NOTICE:Temp: <*> , Location: <*> State: <*> Reading: <*> Celsius",0.611184,all
+IOSXE_RP_ALARM-6-INFO:asserted <*> Temp: <*> <*> <*> Temp Above Normal,ENVIRONMENTAL-6-INFO:Temp: Temp 1: <*> Temp: Temp 2: <*> Temp: Temp 1: <*> Temp: Temp 2: <*> Temp: FC PWM1: <*> Fan Speed <*> Temp: ARAD+0 : <*> Temp: Inlet : <*> Temp: ARAD+1 : <*> Temp: Outlet : <*> Temp: ARAD+0 : <*> Temp: Inlet : <*> Temp: ARAD+1 : <*> Temp: Outlet : <*>,0.611184,all
+"ENVIRONMENTAL-6-NOTICE:Temp: <*> , Location: <*> State: <*> Reading: <*> Celsius",IOSXE_RP_ALARM-6-INFO:asserted <*> Temp: <*> <*> <*> Temp Above Normal,0.611184,all
+"ENVIRONMENTAL-6-NOTICE:Temp: <*> , Location: <*> State: <*> Reading: <*> Celsius",ENVIRONMENTAL-6-INFO:Temp: Temp 1: <*> Temp: Temp 2: <*> Temp: Temp 1: <*> Temp: Temp 2: <*> Temp: FC PWM1: <*> Fan Speed <*> Temp: ARAD+0 : <*> Temp: Inlet : <*> Temp: ARAD+1 : <*> Temp: Outlet : <*> Temp: ARAD+0 : <*> Temp: Inlet : <*> Temp: ARAD+1 : <*> Temp: Outlet : <*>,0.78,all
+ENVIRONMENTAL-6-INFO:Temp: Temp 1: <*> Temp: Temp 2: <*> Temp: Temp 1: <*> Temp: Temp 2: <*> Temp: FC PWM1: <*> Fan Speed <*> Temp: ARAD+0 : <*> Temp: Inlet : <*> Temp: ARAD+1 : <*> Temp: Outlet : <*> Temp: ARAD+0 : <*> Temp: Inlet : <*> Temp: ARAD+1 : <*> Temp: Outlet : <*>,IOSXE_RP_ALARM-6-INFO:asserted <*> Temp: <*> <*> <*> Temp Above Normal,0.611184,all
+ENVIRONMENTAL-6-INFO:Temp: Temp 1: <*> Temp: Temp 2: <*> Temp: Temp 1: <*> Temp: Temp 2: <*> Temp: FC PWM1: <*> Fan Speed <*> Temp: ARAD+0 : <*> Temp: Inlet : <*> Temp: ARAD+1 : <*> Temp: Outlet : <*> Temp: ARAD+0 : <*> Temp: Inlet : <*> Temp: ARAD+1 : <*> Temp: Outlet : <*>,"ENVIRONMENTAL-6-NOTICE:Temp: <*> , Location: <*> State: <*> Reading: <*> Celsius",0.78,all
+BFDFSM-6-BFD_SESS_DOWN:BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,L2-BFD-6-SESSION_STATE_DOWN :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*> <*> <*>,0.743046,all
+BFDFSM-6-BFD_SESS_DOWN:BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,ROUTING-MPLS_TE-4-WARN :TE-BFD not configured on intf <*> FRR or Path Protection triggered to be consistent with forwarding,0.706629,all
+BFDFSM-6-BFD_SESS_DOWN:BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,L2-BFD-6-SESSION_DAMPENING_OFF :Session to neighbor <*> on interface <*> moved out of Dampened state.,0.692175,all
+LDP-5-SP:<*> session hold up initiated,LDP-5-SP:<*> session recovery <*>,0.727664,all
+LDP-5-SP:<*> session hold up initiated,"OSPF-5-ADJCHG:Process 1, Nbr <*> on <*> <*> <*> from <*> to <*> <*> <*>",0.630688,all
+LDP-5-SP:<*> session hold up initiated,PLATFORM-VIC-4-SIGNAL :Interface TenGigE0 <*> 0 <*> Detected <*> <*>,0.643512,all
+IFDAMP-5-UPDOWN:interface <*> <*> <*> update IP Routing state to <*> interface is not suppressed,IP-TCP_NSR-5-DISABLED :<*> <-> <*> NSR disabled for TCP connection because Retransmission threshold exceeded,0.686462,all
+IFDAMP-5-UPDOWN:interface <*> <*> <*> update IP Routing state to <*> interface is not suppressed,ROUTING-BGP-3-NBR_NSR_DISABLED :NSR disabled on neighbor <*> due to 'ip-tcp' detected the 'warning' condition 'NSR is down because the retransmission threshold exceeded probably because downstream RP is not healthy ',0.668529,all
+IFDAMP-5-UPDOWN:interface <*> <*> <*> update IP Routing state to <*> interface is not suppressed,"L2-BFD-6-SESSION_DAMPENING_ON :Session to neighbor <*> on interface <*> <*> <*> <*> entered Dampened state initial: <*> ms,secondary: <*> ms,maximum: <*> ms .",0.655839,all
+"OSPF-5-ADJCHG:Process 1, Nbr <*> on <*> <*> <*> from <*> to DOWN, Neighbor Down: Interface down or detached",ROUTING-FIB-4-RETRYDB_NONEMPTY :One or more FIB object s have been in IPv4 retry queue for at least <*> seconds,0.601992,all
+LDP-5-GR:GR session <*> inst <*> : interrupted--recovery pending,LDP-5-NBRCHG:LDP Neighbor <*> 0 is DOWN <*> <*> <*> <*> <*>,0.718596,all
+LDP-5-NBRCHG:LDP Neighbor <*> 0 is DOWN <*> <*> <*> <*> <*>,LDP-5-GR:GR session <*> inst <*> : interrupted--recovery pending,0.718596,all
+LDP-5-SP:<*> session recovery <*>,LDP-5-SP:<*> session hold up initiated,0.727664,all
+LDP-5-SP:<*> session recovery <*>,"OSPF-5-ADJCHG:Process 1, Nbr <*> on <*> <*> <*> from <*> to <*> <*> <*>",0.629549,all
+BGP-3-NOTIFICATION:sent to neighbor <*> 4 0 hold time expired 0 bytes,BGP-5-ADJCHANGE:neighbor <*> Down BGP Notification <*>,0.695146,all
+BGP-3-NOTIFICATION:sent to neighbor <*> 4 0 hold time expired 0 bytes,"OSPF-5-ADJCHG:Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*> <*>",0.728114,all
+BGP-3-NOTIFICATION:sent to neighbor <*> 4 0 hold time expired 0 bytes,L2-BM-6-MBR_BFD_SESSION_UP :The BFD session on link TenGigE0 <*> 0 <*> <*> <*> <*> <*> <*> <*>,0.700313,all
+BGP-5-ADJCHANGE:neighbor <*> Down BGP Notification <*>,BGP-3-NOTIFICATION:sent to neighbor <*> 4 0 hold time expired 0 bytes,0.695146,all
+BGP-5-ADJCHANGE:neighbor <*> Down BGP Notification <*>,ROUTING-BGP-3-NBR_NSR_DISABLED :NSR disabled on neighbor <*> due to 'ip-tcp' detected the 'warning' condition 'NSR is down because the retransmission threshold exceeded probably because downstream RP is not healthy ',0.665796,all
+BGP-5-ADJCHANGE:neighbor <*> Down BGP Notification <*>,"ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Up VRF: default; AFI SAFI: 1 128, 2 128, 1 132, 25 70 AS: 65535",0.668403,all
+NETCLK-6-SRC_UPD:Synchronization source TenGigabitEthernet0 <*> <*> status <*> <*> <*> is posted to all selection process.,NETCLK-6-SRC_UPD:Synchronization source TenGigabitEthernet0 <*> <*> status Signal Failure is posted to all selection process.,0.747997,all
+NETCLK-6-SRC_UPD:Synchronization source TenGigabitEthernet0 <*> <*> status <*> <*> <*> is posted to all selection process.,PLATFORM-VIC-4-SIGNAL :Interface TenGigE0 <*> 0 <*> Detected <*> <*>,0.755448,all
+NETCLK-6-SRC_UPD:Synchronization source TenGigabitEthernet0 <*> <*> status <*> <*> <*> is posted to all selection process.,"L2-BFD-6-SESSION_DAMPENING_ON :Session to neighbor <*> on interface <*> <*> <*> <*> entered Dampened state initial: <*> ms,secondary: <*> ms,maximum: <*> ms .",0.664586,all
+NETCLK-6-SRC_UPD:Synchronization source TenGigabitEthernet0 <*> <*> status Signal Failure is posted to all selection process.,NETCLK-6-SRC_UPD:Synchronization source TenGigabitEthernet0 <*> <*> status <*> <*> <*> is posted to all selection process.,0.747997,all
+"SECURITY-SSHD-6-INFO_REKEY :Server initiated <*> rekey for session <*> , session_rekey_count = <*>",L2-BM-6-MBR_BFD_STARTING :The BFD session on link <*> <*> <*> <*> in <*> is starting. Waiting indefinitely for peer to establish session.,0.737324,all
+"SECURITY-SSHD-6-INFO_REKEY :Server initiated <*> rekey for session <*> , session_rekey_count = <*>","L2-BFD-6-SESSION_DAMPENING_ON :Session to neighbor <*> on interface <*> <*> <*> <*> entered Dampened state initial: <*> ms,secondary: <*> ms,maximum: <*> ms .",0.763181,all
+IOSXE_PEM-6-FANOK:The <*> in <*> <*> is functioning properly,IOSXE_RP_ALARM-2-PEM:cleared MAJOR Fan Tray Ext. ALARM:: Fan Tray Fan <*> Failure,0.732998,all
+IOSXE_PEM-6-FANOK:The <*> in <*> <*> is functioning properly,IOSXE_RP_ALARM-2-PEM:asserted MAJOR Fan Tray Ext. ALARM:: Fan Tray Fan <*> Failure,0.716029,all
+IOSXE_PEM-6-FANOK:The <*> in <*> <*> is functioning properly,IOSXE_PEM-3-FANFAIL:The fan in P2 <*> is encountering a failure condition,0.711445,all
+IOSXE_RP_ALARM-2-PEM:cleared MAJOR Fan Tray Ext. ALARM:: Fan Tray Fan <*> Failure,IOSXE_PEM-6-FANOK:The <*> in <*> <*> is functioning properly,0.732999,all
+IOSXE_RP_ALARM-2-PEM:cleared MAJOR Fan Tray Ext. ALARM:: Fan Tray Fan <*> Failure,IOSXE_RP_ALARM-2-PEM:asserted MAJOR Fan Tray Ext. ALARM:: Fan Tray Fan <*> Failure,0.749799,all
+IOSXE_RP_ALARM-2-PEM:cleared MAJOR Fan Tray Ext. ALARM:: Fan Tray Fan <*> Failure,IOSXE_PEM-3-FANFAIL:The fan in P2 <*> is encountering a failure condition,0.749248,all
+OS-PCE-5-PEER_STATE_CHANGE :PCEP Peer <*> state changed from <*> to <*>,BGP-3-NOTIFICATION:sent to neighbor <*> 4 0 hold time expired 0 bytes,0.644245,all
+IOSXE_RP_ALARM-2-PEM:asserted MAJOR Fan Tray Ext. ALARM:: Fan Tray Fan <*> Failure,IOSXE_PEM-6-FANOK:The <*> in <*> <*> is functioning properly,0.71603,all
+IOSXE_RP_ALARM-2-PEM:asserted MAJOR Fan Tray Ext. ALARM:: Fan Tray Fan <*> Failure,IOSXE_RP_ALARM-2-PEM:cleared MAJOR Fan Tray Ext. ALARM:: Fan Tray Fan <*> Failure,0.749799,all
+IOSXE_RP_ALARM-2-PEM:asserted MAJOR Fan Tray Ext. ALARM:: Fan Tray Fan <*> Failure,IOSXE_PEM-3-FANFAIL:The fan in P2 <*> is encountering a failure condition,0.772691,all
+IOSXE_PEM-3-FANFAIL:The fan in P2 <*> is encountering a failure condition,IOSXE_PEM-6-FANOK:The <*> in <*> <*> is functioning properly,0.711447,all
+IOSXE_PEM-3-FANFAIL:The fan in P2 <*> is encountering a failure condition,IOSXE_RP_ALARM-2-PEM:cleared MAJOR Fan Tray Ext. ALARM:: Fan Tray Fan <*> Failure,0.749248,all
+IOSXE_PEM-3-FANFAIL:The fan in P2 <*> is encountering a failure condition,IOSXE_RP_ALARM-2-PEM:asserted MAJOR Fan Tray Ext. ALARM:: Fan Tray Fan <*> Failure,0.772691,all
+ETHPORT-5-IF_UP:Interface <*> <*> is up in mode <*>,PLATFORM-VIC-4-RX_LOS :Interface <*> <*> 0 <*> Detected Rx Loss of Signal,0.760165,all
+ETHPORT-5-IF_UP:Interface <*> <*> is up in mode <*>,ETHPORT-5-IF_RX_FLOW_CONTROL:Interface <*> <*> <*> <*> <*> state changed to <*>,0.704739,all
+ETHPORT-5-IF_UP:Interface <*> <*> is up in mode <*>,ETHPORT-5-IF_DOWN_PORT_CHANNEL_MEMBERS_DOWN:Interface <*> is down No operational members,0.704739,all
+PKT_INFRA-FM-2-FAULT_CRITICAL :ALARM_CRITICAL :OPTICS RX POWER <*> LOW ALARM <*> : <*> <*> <*> <*>,PLATFORM-VIC-4-RX_LOS :Interface <*> <*> 0 <*> Detected Rx Loss of Signal,0.619241,all
+PKT_INFRA-FM-2-FAULT_CRITICAL :ALARM_CRITICAL :OPTICS RX POWER <*> LOW ALARM <*> : <*> <*> <*> <*>,L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*> <*>,0.700483,all
+BFDFSM-6-BFD_SESS_UP:BFD-SYSLOG: BFD session <*> <*> is going UP,"SFF8472-3-THRESHOLD_VIOLATION:<*> <*> <*> Temperature high <*> Operating value: <*> C, Threshold value: <*> C.",0.601257,all
+BFDFSM-6-BFD_SESS_UP:BFD-SYSLOG: BFD session <*> <*> is going UP,L2-BFD-6-SESSION_STATE_DOWN :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*> <*> <*>,0.678941,all
+BFDFSM-6-BFD_SESS_UP:BFD-SYSLOG: BFD session <*> <*> is going UP,L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> is up,0.603595,all
+L2-BFD-6-SESSION_STATE_DOWN :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*> <*> <*>,BFDFSM-6-BFD_SESS_DOWN:BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,0.743045,all
+L2-BFD-6-SESSION_STATE_DOWN :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*> <*> <*>,ROUTING-MPLS_TE-4-WARN :TE-BFD not configured on intf <*> FRR or Path Protection triggered to be consistent with forwarding,0.718297,all
+L2-BFD-6-SESSION_STATE_DOWN :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*> <*> <*>,L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> is up,0.686356,all
+ROUTING-MPLS_TE-4-WARN :TE-BFD not configured on intf <*> FRR or Path Protection triggered to be consistent with forwarding,BFDFSM-6-BFD_SESS_DOWN:BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,0.706625,all
+ROUTING-MPLS_TE-4-WARN :TE-BFD not configured on intf <*> FRR or Path Protection triggered to be consistent with forwarding,L2-BFD-6-SESSION_STATE_DOWN :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*> <*> <*>,0.718294,all
+ROUTING-MPLS_TE-4-WARN :TE-BFD not configured on intf <*> FRR or Path Protection triggered to be consistent with forwarding,"L2-BFD-6-SESSION_DAMPENING_ON :Session to neighbor <*> on interface <*> entered Dampened state initial: 2000 ms,secondary: 5000 ms,maximum: 120000 ms .",0.683392,all
+"L2-BFD-6-SESSION_DAMPENING_ON :Session to neighbor <*> on interface <*> entered Dampened state initial: 2000 ms,secondary: 5000 ms,maximum: 120000 ms .",BFDFSM-6-BFD_SESS_DOWN:BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,0.687317,all
+"L2-BFD-6-SESSION_DAMPENING_ON :Session to neighbor <*> on interface <*> entered Dampened state initial: 2000 ms,secondary: 5000 ms,maximum: 120000 ms .",L2-BFD-6-SESSION_STATE_DOWN :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*> <*> <*>,0.684921,all
+"L2-BFD-6-SESSION_DAMPENING_ON :Session to neighbor <*> on interface <*> entered Dampened state initial: 2000 ms,secondary: 5000 ms,maximum: 120000 ms .",L2-BFD-6-SESSION_DAMPENING_OFF :Session to neighbor <*> on interface <*> moved out of Dampened state.,0.717646,all
+L2-BFD-6-SESSION_DAMPENING_OFF :Session to neighbor <*> on interface <*> moved out of Dampened state.,BFDFSM-6-BFD_SESS_DOWN:BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,0.692175,all
+L2-BFD-6-SESSION_DAMPENING_OFF :Session to neighbor <*> on interface <*> moved out of Dampened state.,"L2-BFD-6-SESSION_DAMPENING_ON :Session to neighbor <*> on interface <*> entered Dampened state initial: 2000 ms,secondary: 5000 ms,maximum: 120000 ms .",0.717646,all
+L2-BFD-6-SESSION_DAMPENING_OFF :Session to neighbor <*> on interface <*> moved out of Dampened state.,L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> is up,0.668307,all
+L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> is up,BFDFSM-6-BFD_SESS_DOWN:BFD-SYSLOG: BFD session <*> <*> going Down Reason: DETECT TIMER EXPIRED,0.663966,all
+L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> is up,L2-BFD-6-SESSION_STATE_DOWN :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*> <*> <*>,0.686356,all
+L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> is up,L2-BFD-6-SESSION_DAMPENING_OFF :Session to neighbor <*> on interface <*> moved out of Dampened state.,0.668306,all
+ROUTING-BGP-5-NBR_NSR_DISABLED_STANDBY :NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,IP-TCP_NSR-5-DISABLED :<*> <-> <*> NSR disabled for TCP connection because Retransmission threshold exceeded,0.721995,all
+ROUTING-BGP-5-NBR_NSR_DISABLED_STANDBY :NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,"ROUTING-LDP-5-NSR_SYNC_PEER_DONE :VRF 'default' 0x60000000 , Peer <*> initial synchronization done",0.728514,all
+ROUTING-BGP-5-NBR_NSR_DISABLED_STANDBY :NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,ROUTING-LDP-5-NSR_SYNC_DONE :Initial synchronization successfully done for <*> peers,0.728514,all
+IP-TCP_NSR-5-DISABLED :<*> <-> <*> NSR disabled for TCP connection because Retransmission threshold exceeded,IFDAMP-5-UPDOWN:interface <*> <*> <*> update IP Routing state to <*> interface is not suppressed,0.686462,all
+IP-TCP_NSR-5-DISABLED :<*> <-> <*> NSR disabled for TCP connection because Retransmission threshold exceeded,ROUTING-BGP-5-NBR_NSR_DISABLED_STANDBY :NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,0.721997,all
+IP-TCP_NSR-5-DISABLED :<*> <-> <*> NSR disabled for TCP connection because Retransmission threshold exceeded,IOSXE_RP_ALARM-2-PEM:asserted CRITICAL Power Supply Module <*> Power Supply Failure,0.653156,all
+ROUTING-BGP-3-NBR_NSR_DISABLED :NSR disabled on neighbor <*> due to 'ip-tcp' detected the 'warning' condition 'NSR is down because the retransmission threshold exceeded probably because downstream RP is not healthy ',IFDAMP-5-UPDOWN:interface <*> <*> <*> update IP Routing state to <*> interface is not suppressed,0.668529,all
+ROUTING-BGP-3-NBR_NSR_DISABLED :NSR disabled on neighbor <*> due to 'ip-tcp' detected the 'warning' condition 'NSR is down because the retransmission threshold exceeded probably because downstream RP is not healthy ',BGP-3-NOTIFICATION:sent to neighbor <*> 4 0 hold time expired 0 bytes,0.648823,all
+ROUTING-BGP-3-NBR_NSR_DISABLED :NSR disabled on neighbor <*> due to 'ip-tcp' detected the 'warning' condition 'NSR is down because the retransmission threshold exceeded probably because downstream RP is not healthy ',BGP-5-ADJCHANGE:neighbor <*> Down BGP Notification <*>,0.665796,all
+"ROUTING-LDP-5-NBR_CHANGE :VRF 'default' 0x60000000 , Neighbor <*> is DOWN <*> <*> <*> <*> <*>",ROUTING-FIB-4-RETRYDB_NONEMPTY :One or more FIB object s have been in IPv4 retry queue for at least <*> seconds,0.724983,all
+"ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Down - BGP Notification <*> hold time expired VRF: default; AFI SAFI: 1 128, 2 128, 1 132, 25 70 AS: 65535","ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Up VRF: default; AFI SAFI: 1 128, 2 128, 1 132, 25 70 AS: 65535",0.75458,all
+"ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Down - BGP Notification <*> hold time expired VRF: default; AFI SAFI: 1 128, 2 128, 1 132, 25 70 AS: 65535","SYS-6-TTY_EXPIRE_TIMER:exec timer expired, tty <*> <*> , user <*>",0.635191,all
+"ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Down - BGP Notification <*> hold time expired VRF: default; AFI SAFI: 1 128, 2 128, 1 132, 25 70 AS: 65535",IOSXE_RP_ALARM-2-PEM:cleared CRITICAL Power Supply Module <*> Power Supply Failure,0.690923,all
+"OSPF-5-ADJCHG:Process 1, Nbr <*> on <*> <*> <*> from <*> to <*> <*> <*>",L2-BM-6-MBR_BFD_SESSION_UP :The BFD session on link TenGigE0 <*> 0 <*> <*> <*> <*> <*> <*> <*>,0.759248,all
+"OSPF-5-ADJCHG:Process 1, Nbr <*> on <*> <*> <*> from <*> to <*> <*> <*>",L2-BM-6-ACTIVE :<*> <*> <*> <*> is Active as part of <*>,0.763834,all
+"OSPF-5-ADJCHG:Process 1, Nbr <*> on <*> <*> <*> from <*> to <*> <*> <*>",L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*>,0.755993,all
+LDP-5-NBRCHG:LDP Neighbor <*> <*> is UP,ROUTING-FIB-4-RETRYDB_NONEMPTY :One or more FIB object s have been in IPv4 retry queue for at least <*> seconds,0.738693,all
+LDP-5-NBRCHG:LDP Neighbor <*> <*> is UP,SECURITY-SSHD-4-INFO_FAILURE :Failed authentication attempt by user <*> from <*> on <*>,0.686952,all
+PKI-6-AUTHORITATIVE_CLOCK:The system clock has been set.,"ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Up VRF: default; AFI SAFI: 1 128, 2 128, 1 132, 25 70 AS: 65535",0.606008,all
+PKI-6-AUTHORITATIVE_CLOCK:The system clock has been set.,"ACL-IPV4_ACL-6-IPACCESSLOGP :access-list VTY-ACL 1000 deny tcp <*> <*> -> <*> 22 , <*> <*>",0.604284,all
+ROUTING-OSPF-5-ADJCHG :Process <*> Nbr <*> on <*> in area <*> from <*> to <*> <*> vrf default vrfid 0x60000000,SSH-5-SSH_CLOSE:SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,0.78739,all
+ROUTING-OSPF-5-ADJCHG :Process <*> Nbr <*> on <*> in area <*> from <*> to <*> <*> vrf default vrfid 0x60000000,NETCLK-6-SRC_UPD:Synchronization source TenGigabitEthernet0 <*> <*> status <*> <*> <*> is posted to all selection process.,0.616117,all
+"ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Up VRF: default; AFI SAFI: 1 128, 2 128, 1 132, 25 70 AS: 65535",BGP-5-ADJCHANGE:neighbor <*> Down BGP Notification <*>,0.668403,all
+"ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Up VRF: default; AFI SAFI: 1 128, 2 128, 1 132, 25 70 AS: 65535","ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Down - BGP Notification <*> hold time expired VRF: default; AFI SAFI: 1 128, 2 128, 1 132, 25 70 AS: 65535",0.75458,all
+"ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Up VRF: default; AFI SAFI: 1 128, 2 128, 1 132, 25 70 AS: 65535",PLATFORM-VIC-4-SIGNAL :Interface TenGigE0 <*> 0 <*> Detected <*> <*>,0.657671,all
+ROUTING-LDP-5-NSR_SYNC_START :Initial synchronization started for <*> peers,SSH-5-SSH_CLOSE:SSH Session from 10.159.56.88 tty = <*> for user '' using crypto cipher '' closed,0.722339,all
+ROUTING-LDP-5-NSR_SYNC_START :Initial synchronization started for <*> peers,SERVICES-OT-6-TRACK_INFO :track <*> state <*>,0.684656,all
+"ROUTING-LDP-5-NSR_SYNC_PEER_DONE :VRF 'default' 0x60000000 , Peer <*> initial synchronization done",SERVICES-OT-6-TRACK_INFO :track <*> state <*>,0.712472,all
+"ROUTING-LDP-5-NSR_SYNC_PEER_DONE :VRF 'default' 0x60000000 , Peer <*> initial synchronization done",ROUTING-BGP-5-NBR_NSR_DISABLED_STANDBY :NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,0.72852,all
+"ROUTING-LDP-5-NSR_SYNC_PEER_DONE :VRF 'default' 0x60000000 , Peer <*> initial synchronization done",ROUTING-LDP-5-NSR_SYNC_DONE :Initial synchronization successfully done for <*> peers,0.719465,all
+ROUTING-LDP-5-NSR_SYNC_DONE :Initial synchronization successfully done for <*> peers,SERVICES-OT-6-TRACK_INFO :track <*> state <*>,0.712468,all
+ROUTING-LDP-5-NSR_SYNC_DONE :Initial synchronization successfully done for <*> peers,ROUTING-BGP-5-NBR_NSR_DISABLED_STANDBY :NSR disabled on neighbor <*> on standby RP due to <*> <*> <*> <*> <*> VRF: <*>,0.72852,all
+ROUTING-LDP-5-NSR_SYNC_DONE :Initial synchronization successfully done for <*> peers,"ROUTING-LDP-5-NSR_SYNC_PEER_DONE :VRF 'default' 0x60000000 , Peer <*> initial synchronization done",0.719465,all
+NETCLK-6-SEL_CLOCK_SRC:Synchronization source TenGigabitEthernet0 <*> <*> <*> is selected by selection process T0 to synchronize the system and generate T0 output.,NETCLK-6-ENTER_HOLDOVER:System Internal synchronization source is selected.,0.640088,all
+"SYS-6-TTY_EXPIRE_TIMER:exec timer expired, tty <*> <*> , user <*>","ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Down - BGP Notification <*> hold time expired VRF: default; AFI SAFI: 1 128, 2 128, 1 132, 25 70 AS: 65535",0.635186,all
+ROUTING-BGP-5-NBR_NSR_DISABLED_STANDBY :NSR disabled on neighbor <*> on standby RP due to <*> <*> VRF: <*>,SECURITY-SSHD-6-INFO_SUCCESS :Successfully authenticated user <*> from <*> on <*> cipher <*> mac <*>,0.620365,all
+ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Down - <*> <*> VRF: <*> AFI SAFI: 1 1 AS: <*>,SECURITY-SSHD-6-INFO_USER_LOGOUT :User <*> from <*> logged out on <*>,0.620372,all
+L2-BFD-6-SESSION_REMOVED :BFD session to neighbor <*> on interface <*> has been removed,L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*> <*>,0.726516,all
+L2-BFD-6-SESSION_REMOVED :BFD session to neighbor <*> on interface <*> has been removed,ROUTING-FIB-4-RETRYDB_NONEMPTY :One or more FIB object s have been in IPv4 retry queue for at least <*> seconds,0.707013,all
+L2-BFD-6-SESSION_REMOVED :BFD session to neighbor <*> on interface <*> has been removed,L2-BM-6-ACTIVE :<*> <*> <*> <*> is no longer Active as part of <*> Link is <*>,0.72668,all
+"OSPF-5-ADJCHG:Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*> <*>",BGP-3-NOTIFICATION:sent to neighbor <*> 4 0 hold time expired 0 bytes,0.728114,all
+"OSPF-5-ADJCHG:Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*> <*>","OSPF-5-ADJCHG:Process 1, Nbr <*> on <*> <*> <*> from <*> to <*> <*> <*>",0.727482,all
+"OSPF-5-ADJCHG:Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*> <*>",L2-BM-6-MBR_BFD_SESSION_UP :The BFD session on link TenGigE0 <*> 0 <*> <*> <*> <*> <*> <*> <*>,0.70246,all
+PLATFORM-VIC-4-SIGNAL :Interface TenGigE0 <*> 0 <*> Detected <*> <*>,LDP-5-SP:<*> session hold up initiated,0.643512,all
+PLATFORM-VIC-4-SIGNAL :Interface TenGigE0 <*> 0 <*> Detected <*> <*>,NETCLK-6-SRC_UPD:Synchronization source TenGigabitEthernet0 <*> <*> status <*> <*> <*> is posted to all selection process.,0.75545,all
+PLATFORM-VIC-4-SIGNAL :Interface TenGigE0 <*> 0 <*> Detected <*> <*>,"ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Up VRF: default; AFI SAFI: 1 128, 2 128, 1 132, 25 70 AS: 65535",0.657671,all
+BFDFSM-6-BFD_SESS_DOWN:BFD-SYSLOG: BFD session <*> <*> going Down Reason: RX <*>,L2-BM-6-MBR_BFD_STARTING :The BFD session on link <*> <*> <*> <*> in <*> is starting. Waiting indefinitely for peer to establish session.,0.699658,all
+BFDFSM-6-BFD_SESS_DOWN:BFD-SYSLOG: BFD session <*> <*> going Down Reason: RX <*>,"L2-BFD-6-SESSION_DAMPENING_ON :Session to neighbor <*> on interface <*> <*> <*> <*> entered Dampened state initial: <*> ms,secondary: <*> ms,maximum: <*> ms .",0.723222,all
+BFDFSM-6-BFD_SESS_DOWN:BFD-SYSLOG: BFD session <*> <*> going Down Reason: RX <*>,L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*>,0.697586,all
+L2-BM-6-MBR_BFD_SESSION_UP :The BFD session on link TenGigE0 <*> 0 <*> <*> <*> <*> <*> <*> <*>,BGP-3-NOTIFICATION:sent to neighbor <*> 4 0 hold time expired 0 bytes,0.700313,all
+L2-BM-6-MBR_BFD_SESSION_UP :The BFD session on link TenGigE0 <*> 0 <*> <*> <*> <*> <*> <*> <*>,"OSPF-5-ADJCHG:Process 1, Nbr <*> on <*> <*> <*> from <*> to <*> <*> <*>",0.759249,all
+L2-BM-6-MBR_BFD_SESSION_UP :The BFD session on link TenGigE0 <*> 0 <*> <*> <*> <*> <*> <*> <*>,"OSPF-5-ADJCHG:Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*> <*>",0.70246,all
+L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*> <*>,"OSPF-5-ADJCHG:Process 1, Nbr <*> on <*> <*> <*> from <*> to <*> <*> <*>",0.722374,all
+L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*> <*>,L2-BFD-6-SESSION_REMOVED :BFD session to neighbor <*> on interface <*> has been removed,0.726516,all
+L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*> <*>,ROUTING-FIB-4-RETRYDB_NONEMPTY :One or more FIB object s have been in IPv4 retry queue for at least <*> seconds,0.722921,all
+IOSXE_RP_ALARM-2-PEM:asserted CRITICAL Power Supply Module <*> Power Supply Failure,IP-TCP_NSR-5-DISABLED :<*> <-> <*> NSR disabled for TCP connection because Retransmission threshold exceeded,0.653157,all
+IOSXE_RP_ALARM-2-PEM:asserted CRITICAL Power Supply Module <*> Power Supply Failure,IOSXE_PEM-3-PEMFAIL:The Power Supply in slot <*> is switched off or encountering a failure condition.,0.760215,all
+IOSXE_RP_ALARM-2-PEM:asserted CRITICAL Power Supply Module <*> Power Supply Failure,IOSXE_RP_ALARM-2-PEM:cleared CRITICAL Power Supply Module <*> Power Supply Failure,0.745395,all
+IOSXE_PEM-3-PEMFAIL:The Power Supply in slot <*> is switched off or encountering a failure condition.,IP-TCP_NSR-5-DISABLED :<*> <-> <*> NSR disabled for TCP connection because Retransmission threshold exceeded,0.637829,all
+IOSXE_PEM-3-PEMFAIL:The Power Supply in slot <*> is switched off or encountering a failure condition.,IOSXE_RP_ALARM-2-PEM:asserted CRITICAL Power Supply Module <*> Power Supply Failure,0.760215,all
+IOSXE_PEM-3-PEMFAIL:The Power Supply in slot <*> is switched off or encountering a failure condition.,IOSXE_RP_ALARM-2-PEM:cleared CRITICAL Power Supply Module <*> Power Supply Failure,0.763803,all
+IOSXE_RP_ALARM-2-PEM:cleared CRITICAL Power Supply Module <*> Power Supply Failure,"ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Down - BGP Notification <*> hold time expired VRF: default; AFI SAFI: 1 128, 2 128, 1 132, 25 70 AS: 65535",0.690923,all
+IOSXE_RP_ALARM-2-PEM:cleared CRITICAL Power Supply Module <*> Power Supply Failure,IOSXE_RP_ALARM-2-PEM:asserted CRITICAL Power Supply Module <*> Power Supply Failure,0.745395,all
+IOSXE_RP_ALARM-2-PEM:cleared CRITICAL Power Supply Module <*> Power Supply Failure,IOSXE_PEM-3-PEMFAIL:The Power Supply in slot <*> is switched off or encountering a failure condition.,0.763803,all
+L2-BM-6-ACTIVE :<*> <*> <*> <*> is Active as part of <*>,L2-BFD-6-SESSION_DAMPENING_OFF :Session to neighbor <*> on interface <*> <*> <*> <*> moved out of Dampened state.,0.773577,all
+L2-BM-6-ACTIVE :<*> <*> <*> <*> is Active as part of <*>,L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*>,0.768666,all
+L2-BM-6-ACTIVE :<*> <*> <*> <*> is Active as part of <*>,L2-BM-6-MBR_BFD_SESSION_UP :The BFD session on link <*> <*> <*> <*> in <*> has gone UP.,0.768771,all
+ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Up VRF: <*> AFI SAFI: <*> <*> AS: <*>,BGP-5-ADJCHANGE:neighbor <*> vpn vrf <*> Up,0.740121,all
+IFDAMP-5-UPDOWN:interface <*> update IP Routing state to <*> interface is not suppressed,PLATFORM-VIC-4-SIGNAL :Interface <*> <*> <*> <*> Detected Signal failure,0.66486,all
+IFDAMP-5-UPDOWN:interface <*> update IP Routing state to <*> interface is not suppressed,EC-5-MINLINKS_MET:Port-channel <*> is up as its bundled ports <*> meets min-links,0.636425,all
+IFDAMP-5-UPDOWN:interface <*> update IP Routing state to <*> interface is not suppressed,EC-5-MINLINKS_NOTMET:Port-channel <*> is down bundled ports 0 doesn't meet min-links,0.61594,all
+BGP-5-ADJCHANGE:neighbor <*> vpn vrf <*> Up,ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Up VRF: <*> AFI SAFI: <*> <*> AS: <*>,0.740121,all
+BGP-5-ADJCHANGE:neighbor <*> vpn vrf <*> Up,BGP-5-ADJCHANGE:neighbor <*> vpn vrf <*> Down <*> <*> <*>,0.740379,all
+EC-5-MINLINKS_MET:Port-channel <*> is up as its bundled ports <*> meets min-links,PLATFORM-VIC-4-SIGNAL :Interface <*> <*> <*> <*> Detected Signal failure,0.61542,all
+EC-5-MINLINKS_MET:Port-channel <*> is up as its bundled ports <*> meets min-links,IFDAMP-5-UPDOWN:interface <*> update IP Routing state to <*> interface is not suppressed,0.636425,all
+EC-5-MINLINKS_MET:Port-channel <*> is up as its bundled ports <*> meets min-links,L2-BM-5-MBR_BFD_NOT_RUNNING :The BFD session on link <*> <*> <*> <*> in <*> is no longer required.,0.660221,all
+ROUTING-FIB-4-RETRYDB_NONEMPTY :One or more FIB object s have been in IPv4 retry queue for at least <*> seconds,LDP-5-NBRCHG:LDP Neighbor <*> <*> is UP,0.738691,all
+ROUTING-FIB-4-RETRYDB_NONEMPTY :One or more FIB object s have been in IPv4 retry queue for at least <*> seconds,L2-BM-6-ACTIVE :<*> <*> <*> <*> is no longer Active as part of <*> Link is <*>,0.744023,all
+ROUTING-FIB-4-RETRYDB_NONEMPTY :One or more FIB object s have been in IPv4 retry queue for at least <*> seconds,L2-BM-6-MBR_BFD_STARTING :The BFD session on link <*> <*> <*> <*> in <*> is starting. Waiting indefinitely for peer to establish session.,0.770825,all
+NETCLK-6-ENTER_HOLDOVER:System Internal synchronization source is selected.,NETCLK-6-SEL_CLOCK_SRC:Synchronization source TenGigabitEthernet0 <*> <*> <*> is selected by selection process T0 to synchronize the system and generate T0 output.,0.640088,all
+"ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Down - Peer closing down the session CEASE notification sent - hold time expired VRF: default; AFI SAFI: 1 128, 2 128, 1 132, 25 70 AS: 65535",BGP-5-ADJCHANGE:neighbor <*> Down NSF peer closed the session,0.752128,all
+BGP-5-ADJCHANGE:neighbor <*> Down NSF peer closed the session,"ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Down - Peer closing down the session CEASE notification sent - hold time expired VRF: default; AFI SAFI: 1 128, 2 128, 1 132, 25 70 AS: 65535",0.752128,all
+L2-BM-6-ACTIVE :<*> <*> <*> <*> is no longer Active as part of <*> Link is <*>,"OSPF-5-ADJCHG:Process 1, Nbr <*> on <*> <*> <*> from <*> to <*> <*> <*>",0.743392,all
+L2-BM-6-ACTIVE :<*> <*> <*> <*> is no longer Active as part of <*> Link is <*>,L2-BFD-6-SESSION_REMOVED :BFD session to neighbor <*> on interface <*> has been removed,0.72668,all
+L2-BM-6-ACTIVE :<*> <*> <*> <*> is no longer Active as part of <*> Link is <*>,ROUTING-FIB-4-RETRYDB_NONEMPTY :One or more FIB object s have been in IPv4 retry queue for at least <*> seconds,0.744025,all
+L2-BM-6-MBR_BFD_STARTING :The BFD session on link <*> <*> <*> <*> in <*> is starting. Waiting indefinitely for peer to establish session.,"OSPF-5-ADJCHG:Process 1, Nbr <*> on <*> <*> <*> from <*> to <*> <*> <*>",0.745552,all
+L2-BM-6-MBR_BFD_STARTING :The BFD session on link <*> <*> <*> <*> in <*> is starting. Waiting indefinitely for peer to establish session.,ROUTING-FIB-4-RETRYDB_NONEMPTY :One or more FIB object s have been in IPv4 retry queue for at least <*> seconds,0.770827,all
+L2-BM-6-MBR_BFD_STARTING :The BFD session on link <*> <*> <*> <*> in <*> is starting. Waiting indefinitely for peer to establish session.,"L2-BFD-6-SESSION_DAMPENING_ON :Session to neighbor <*> on interface <*> <*> <*> <*> entered Dampened state initial: <*> ms,secondary: <*> ms,maximum: <*> ms .",0.749584,all
+"L2-BFD-6-SESSION_DAMPENING_ON :Session to neighbor <*> on interface <*> <*> <*> <*> entered Dampened state initial: <*> ms,secondary: <*> ms,maximum: <*> ms .","SECURITY-SSHD-6-INFO_REKEY :Server initiated <*> rekey for session <*> , session_rekey_count = <*>",0.763181,all
+"L2-BFD-6-SESSION_DAMPENING_ON :Session to neighbor <*> on interface <*> <*> <*> <*> entered Dampened state initial: <*> ms,secondary: <*> ms,maximum: <*> ms .",BFDFSM-6-BFD_SESS_DOWN:BFD-SYSLOG: BFD session <*> <*> going Down Reason: RX <*>,0.723222,all
+"L2-BFD-6-SESSION_DAMPENING_ON :Session to neighbor <*> on interface <*> <*> <*> <*> entered Dampened state initial: <*> ms,secondary: <*> ms,maximum: <*> ms .",L2-BM-6-MBR_BFD_STARTING :The BFD session on link <*> <*> <*> <*> in <*> is starting. Waiting indefinitely for peer to establish session.,0.749584,all
+L2-BFD-6-SESSION_DAMPENING_OFF :Session to neighbor <*> on interface <*> <*> <*> <*> moved out of Dampened state.,L2-BM-6-ACTIVE :<*> <*> <*> <*> is Active as part of <*>,0.773577,all
+L2-BFD-6-SESSION_DAMPENING_OFF :Session to neighbor <*> on interface <*> <*> <*> <*> moved out of Dampened state.,L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*>,0.77487,all
+L2-BFD-6-SESSION_DAMPENING_OFF :Session to neighbor <*> on interface <*> <*> <*> <*> moved out of Dampened state.,L2-BM-6-MBR_BFD_SESSION_UP :The BFD session on link <*> <*> <*> <*> in <*> has gone UP.,0.767957,all
+L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*>,L2-BM-6-ACTIVE :<*> <*> <*> <*> is Active as part of <*>,0.768666,all
+L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*>,L2-BFD-6-SESSION_DAMPENING_OFF :Session to neighbor <*> on interface <*> <*> <*> <*> moved out of Dampened state.,0.77487,all
+L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*>,L2-BM-6-MBR_BFD_SESSION_UP :The BFD session on link <*> <*> <*> <*> in <*> has gone UP.,0.762403,all
+L2-BM-6-MBR_BFD_SESSION_UP :The BFD session on link <*> <*> <*> <*> in <*> has gone UP.,L2-BM-6-ACTIVE :<*> <*> <*> <*> is Active as part of <*>,0.768771,all
+L2-BM-6-MBR_BFD_SESSION_UP :The BFD session on link <*> <*> <*> <*> in <*> has gone UP.,L2-BFD-6-SESSION_DAMPENING_OFF :Session to neighbor <*> on interface <*> <*> <*> <*> moved out of Dampened state.,0.767957,all
+L2-BM-6-MBR_BFD_SESSION_UP :The BFD session on link <*> <*> <*> <*> in <*> has gone UP.,L2-BFD-6-SESSION_STATE_UP :BFD session to neighbor <*> on interface <*> <*> <*> <*> <*> <*>,0.762403,all
+"ACL-IPV4_ACL-6-IPACCESSLOGP :access-list VTY-ACL 1000 deny tcp <*> <*> -> <*> 22 , <*> <*>",PKI-6-AUTHORITATIVE_CLOCK:The system clock has been set.,0.604276,all
+SECURITY-SSHD-4-INFO_FAILURE :Failed authentication attempt by user <*> from <*> on <*>,"OSPF-5-ADJCHG:Process 1, Nbr <*> on <*> <*> <*> from <*> to <*> <*> <*>",0.644213,all
+SECURITY-SSHD-4-INFO_FAILURE :Failed authentication attempt by user <*> from <*> on <*>,LDP-5-NBRCHG:LDP Neighbor <*> <*> is UP,0.686952,all
+SECURITY-SSHD-4-INFO_FAILURE :Failed authentication attempt by user <*> from <*> on <*>,SECURITY-TACACSD-6-SERVER_UP :TACACS+ server <*> 49 is UP vrf: <*> server-private: Yes,0.708933,all
+BGP-3-NOTIFICATION:received from neighbor <*> active 2 8 no supported AFI SAFI 3 bytes 000000,BGP-5-ADJCHANGE:neighbor <*> <*> Down BGP Notification <*>,0.78,all
+BGP-5-ADJCHANGE:neighbor <*> <*> Down BGP Notification <*>,BGP-3-NOTIFICATION:received from neighbor <*> active 2 8 no supported AFI SAFI 3 bytes 000000,0.78,all
+BGP-5-ADJCHANGE:neighbor <*> vpn vrf <*> Down <*> <*> <*>,BGP-5-ADJCHANGE:neighbor <*> vpn vrf <*> Up,0.740379,all
+L2-BFD-6-SESSION_STATE_DOWN :BFD session to neighbor <*> on interface <*> <*> <*> <*> has gone down. Reason: <*> <*> <*>,"OSPF-5-ADJCHG:Process <*> Nbr <*> on <*> from <*> to DOWN, Neighbor Down: <*> <*> <*> <*>",0.636901,all
+SECURITY-TACACSD-6-SERVER_UP :TACACS+ server <*> 49 is UP vrf: <*> server-private: Yes,ROUTING-FIB-4-RETRYDB_NONEMPTY :One or more FIB object s have been in IPv4 retry queue for at least <*> seconds,0.70706,all
+SECURITY-TACACSD-6-SERVER_UP :TACACS+ server <*> 49 is UP vrf: <*> server-private: Yes,SECURITY-SSHD-4-INFO_FAILURE :Failed authentication attempt by user <*> from <*> on <*>,0.708932,all
+ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Down - BGP Notification <*> <*> <*> <*> VRF: <*> AFI SAFI: <*> <*> AS: <*>,SECURITY-SSHD-6-INFO_SUCCESS :Successfully authenticated user <*> from <*> on <*> cipher <*> mac <*>,0.62039,all
+ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Down - BGP Notification <*> <*> <*> <*> VRF: <*> AFI SAFI: <*> <*> AS: <*>,SECURITY-SSHD-6-INFO_USER_LOGOUT :User <*> from <*> logged out on <*>,0.620389,all
+MGBL-TTY-6-CONNECTION_DENY_ACL_ERROR :Connection denied by ACL mismatch. Source Add <*> Dest Add <*> Source Port <*> Dest port 22. Acl VTY-ACL.,SECURITY-SSHD-6-INFO_USER_LOGOUT :User <*> from <*> logged out on <*>,0.620387,all
+MGBL-TTY-6-CONNECTION_DENY_ACL_ERROR :Connection denied by ACL mismatch. Source Add <*> Dest Add <*> Source Port <*> Dest port 22. Acl VTY-ACL.,SECURITY-SSHD-3-ERR_ERRNO :Failed to allocate pty Invalid argument,0.78,all
+SECURITY-SSHD-3-ERR_ERRNO :Failed to allocate pty Invalid argument,SECURITY-SSHD-6-INFO_USER_LOGOUT :User <*> from <*> logged out on <*>,0.620387,all
+SECURITY-SSHD-3-ERR_ERRNO :Failed to allocate pty Invalid argument,MGBL-TTY-6-CONNECTION_DENY_ACL_ERROR :Connection denied by ACL mismatch. Source Add <*> Dest Add <*> Source Port <*> Dest port 22. Acl VTY-ACL.,0.78,all
+ETH_PORT_CHANNEL-5-FOP_CHANGED:<*> first operational port changed from <*> <*> <*> <*>,ETH_PORT_CHANNEL-5-PORT_DOWN:<*> Ethernet1 <*> is <*>,0.78,all
+ETH_PORT_CHANNEL-5-FOP_CHANGED:<*> first operational port changed from <*> <*> <*> <*>,ETHPORT-5-IF_BANDWIDTH_CHANGE:Interface <*> changed to <*> Kbit,0.738273,all
+ETH_PORT_CHANNEL-5-FOP_CHANGED:<*> first operational port changed from <*> <*> <*> <*>,ETHPORT-5-IF_UP:Interface <*> is up in mode <*>,0.633332,all
+ETH_PORT_CHANNEL-5-PORT_DOWN:<*> Ethernet1 <*> is <*>,ETH_PORT_CHANNEL-5-FOP_CHANGED:<*> first operational port changed from <*> <*> <*> <*>,0.78,all
+ETH_PORT_CHANNEL-5-PORT_DOWN:<*> Ethernet1 <*> is <*>,ETHPORT-5-IF_BANDWIDTH_CHANGE:Interface <*> changed to <*> Kbit,0.738273,all
+ETH_PORT_CHANNEL-5-PORT_DOWN:<*> Ethernet1 <*> is <*>,ETHPORT-5-IF_UP:Interface <*> is up in mode <*>,0.633332,all
+ETHPORT-5-IF_BANDWIDTH_CHANGE:Interface <*> changed to <*> Kbit,ETH_PORT_CHANNEL-5-FOP_CHANGED:<*> first operational port changed from <*> <*> <*> <*>,0.738273,all
+ETHPORT-5-IF_BANDWIDTH_CHANGE:Interface <*> changed to <*> Kbit,ETH_PORT_CHANNEL-5-PORT_DOWN:<*> Ethernet1 <*> is <*>,0.738273,all
+ETHPORT-5-IF_BANDWIDTH_CHANGE:Interface <*> changed to <*> Kbit,ETHPORT-5-IF_UP:Interface <*> is up in mode <*>,0.662162,all
+ETHPORT-5-IF_DOWN_INITIALIZING:Interface <*> <*> is down <*>,ETHPORT-5-SPEED:Interface <*> operational speed changed to <*> Gbps,0.78,all
+ETHPORT-5-IF_DOWN_INITIALIZING:Interface <*> <*> is down <*>,ETHPORT-5-IF_DUPLEX:Interface <*> operational duplex mode changed to Full,0.78,all
+ETHPORT-5-IF_DOWN_INITIALIZING:Interface <*> <*> is down <*>,ETHPORT-5-IF_RX_FLOW_CONTROL:Interface <*> <*> <*> <*> <*> state changed to <*>,0.780111,all
+ETHPORT-5-IF_DOWN_INITIALIZING:Interface <*> <*> is down <*>,ETHPORT-5-IF_DOWN_PORT_CHANNEL_MEMBERS_DOWN:Interface <*> is down No operational members,0.780111,all
+ETHPORT-5-IF_DOWN_INITIALIZING:Interface <*> <*> is down <*>,ETHPORT-5-IF_UP:Interface <*> is up in mode <*>,0.78,all
+ETHPORT-5-SPEED:Interface <*> operational speed changed to <*> Gbps,ETHPORT-5-IF_DOWN_INITIALIZING:Interface <*> <*> is down <*>,0.78,all
+ETHPORT-5-SPEED:Interface <*> operational speed changed to <*> Gbps,ETHPORT-5-IF_DUPLEX:Interface <*> operational duplex mode changed to Full,0.78,all
+ETHPORT-5-SPEED:Interface <*> operational speed changed to <*> Gbps,ETHPORT-5-IF_RX_FLOW_CONTROL:Interface <*> <*> <*> <*> <*> state changed to <*>,0.780111,all
+ETHPORT-5-SPEED:Interface <*> operational speed changed to <*> Gbps,ETHPORT-5-IF_DOWN_PORT_CHANNEL_MEMBERS_DOWN:Interface <*> is down No operational members,0.780111,all
+ETHPORT-5-SPEED:Interface <*> operational speed changed to <*> Gbps,ETHPORT-5-IF_UP:Interface <*> is up in mode <*>,0.78,all
+ETHPORT-5-IF_DUPLEX:Interface <*> operational duplex mode changed to Full,ETHPORT-5-IF_DOWN_INITIALIZING:Interface <*> <*> is down <*>,0.78,all
+ETHPORT-5-IF_DUPLEX:Interface <*> operational duplex mode changed to Full,ETHPORT-5-SPEED:Interface <*> operational speed changed to <*> Gbps,0.78,all
+ETHPORT-5-IF_DUPLEX:Interface <*> operational duplex mode changed to Full,ETHPORT-5-IF_RX_FLOW_CONTROL:Interface <*> <*> <*> <*> <*> state changed to <*>,0.780111,all
+ETHPORT-5-IF_DUPLEX:Interface <*> operational duplex mode changed to Full,ETHPORT-5-IF_DOWN_PORT_CHANNEL_MEMBERS_DOWN:Interface <*> is down No operational members,0.780111,all
+ETHPORT-5-IF_DUPLEX:Interface <*> operational duplex mode changed to Full,ETHPORT-5-IF_UP:Interface <*> is up in mode <*>,0.78,all
+ETHPORT-5-IF_RX_FLOW_CONTROL:Interface <*> <*> <*> <*> <*> state changed to <*>,ETHPORT-5-IF_DOWN_INITIALIZING:Interface <*> <*> is down <*>,0.780111,all
+ETHPORT-5-IF_RX_FLOW_CONTROL:Interface <*> <*> <*> <*> <*> state changed to <*>,ETHPORT-5-SPEED:Interface <*> operational speed changed to <*> Gbps,0.780111,all
+ETHPORT-5-IF_RX_FLOW_CONTROL:Interface <*> <*> <*> <*> <*> state changed to <*>,ETHPORT-5-IF_DUPLEX:Interface <*> operational duplex mode changed to Full,0.780111,all
+ETHPORT-5-IF_RX_FLOW_CONTROL:Interface <*> <*> <*> <*> <*> state changed to <*>,ETHPORT-5-IF_UP:Interface <*> is up in mode <*>,0.780111,all
+ETHPORT-5-IF_DOWN_PORT_CHANNEL_MEMBERS_DOWN:Interface <*> is down No operational members,ETHPORT-5-IF_DOWN_INITIALIZING:Interface <*> <*> is down <*>,0.780111,all
+ETHPORT-5-IF_DOWN_PORT_CHANNEL_MEMBERS_DOWN:Interface <*> is down No operational members,ETHPORT-5-SPEED:Interface <*> operational speed changed to <*> Gbps,0.780111,all
+ETHPORT-5-IF_DOWN_PORT_CHANNEL_MEMBERS_DOWN:Interface <*> is down No operational members,ETHPORT-5-IF_DUPLEX:Interface <*> operational duplex mode changed to Full,0.780111,all
+ETHPORT-5-IF_DOWN_PORT_CHANNEL_MEMBERS_DOWN:Interface <*> is down No operational members,ETHPORT-5-IF_UP:Interface <*> is up in mode <*>,0.780111,all
+ETHPORT-5-IF_UP:Interface <*> is up in mode <*>,ETHPORT-5-IF_DOWN_INITIALIZING:Interface <*> <*> is down <*>,0.78,all
+ETHPORT-5-IF_UP:Interface <*> is up in mode <*>,ETHPORT-5-SPEED:Interface <*> operational speed changed to <*> Gbps,0.78,all
+ETHPORT-5-IF_UP:Interface <*> is up in mode <*>,ETHPORT-5-IF_DUPLEX:Interface <*> operational duplex mode changed to Full,0.78,all
+ETHPORT-5-IF_UP:Interface <*> is up in mode <*>,ETHPORT-5-IF_RX_FLOW_CONTROL:Interface <*> <*> <*> <*> <*> state changed to <*>,0.780111,all
+ETHPORT-5-IF_UP:Interface <*> is up in mode <*>,ETHPORT-5-IF_DOWN_PORT_CHANNEL_MEMBERS_DOWN:Interface <*> is down No operational members,0.780111,all
+LDP-5-GR:GR session <*> inst <*> : <*> graceful recovery,"ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Up VRF: default; AFI SAFI: 1 <*> <*> 128, <*> <*> 25 70, 16388 71 AS: 65535",0.7801,all
+"ROUTING-BGP-5-ADJCHANGE_DETAIL :neighbor <*> Up VRF: default; AFI SAFI: 1 <*> <*> 128, <*> <*> 25 70, 16388 71 AS: 65535",LDP-5-GR:GR session <*> inst <*> : <*> graceful recovery,0.7801,all
+EC-5-MINLINKS_NOTMET:Port-channel <*> is down bundled ports 0 doesn't meet min-links,IFDAMP-5-UPDOWN:interface <*> update IP Routing state to <*> interface is not suppressed,0.61594,all
+L2-BM-5-MBR_BFD_NOT_RUNNING :The BFD session on link <*> <*> <*> <*> in <*> is no longer required.,IFDAMP-5-UPDOWN:interface <*> update IP Routing state to <*> interface is not suppressed,0.612235,all
+L2-BM-5-MBR_BFD_NOT_RUNNING :The BFD session on link <*> <*> <*> <*> in <*> is no longer required.,EC-5-MINLINKS_MET:Port-channel <*> is up as its bundled ports <*> meets min-links,0.660221,all
+L2-BM-5-MBR_BFD_NOT_RUNNING :The BFD session on link <*> <*> <*> <*> in <*> is no longer required.,PLATFORM-DPA-2-RX_FAULT :Interface HundredGigE0 <*> <*> <*> Detected <*> Fault,0.698162,all
+PLATFORM-DPA-2-RX_FAULT :Interface HundredGigE0 <*> <*> <*> Detected <*> Fault,SECURITY-SSHD-6-INFO_SUCCESS :Successfully authenticated user <*> from <*> on <*> cipher <*> mac <*>,0.614075,all
+PLATFORM-DPA-2-RX_FAULT :Interface HundredGigE0 <*> <*> <*> Detected <*> Fault,SECURITY-SSHD-6-INFO_USER_LOGOUT :User <*> from <*> logged out on <*>,0.620557,all
+PLATFORM-DPA-2-RX_FAULT :Interface HundredGigE0 <*> <*> <*> Detected <*> Fault,L2-BM-5-MBR_BFD_NOT_RUNNING :The BFD session on link <*> <*> <*> <*> in <*> is no longer required.,0.698162,all

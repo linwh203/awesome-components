@@ -8,6 +8,17 @@ const length = document.getElementById('length')
 const repeat = document.getElementById('repeat')
 const sequence = document.getElementById('sequence')
 
+/*
+Have a minimum length of 8 characters (you can adjust this by changing the number in {8,})
+Contain at least one lower-case letter ([a-z])
+Contain at least one upper-case letter ([A-Z])
+Contain at least one number (\d)
+Contain at least one special character ([!@#$%^&*])
+*/
+function checkPasswordComplexity(password) {
+  const complexityRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[a-zA-Z\d!@#$%^&*]{8,}$/;
+  return complexityRegex.test(password);
+}
 // reg test page: https://regex101.com/r/9rr1py/1
 const lowerPattern = /(?=.*[a-z])/
 const upperPattern = /(?=.*[A-Z])/
